@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">Penda Hospital</string>
+    <string name="header">THE PENDA HEALTH UMOJA II</string>
+    <string name="email">email</string>
+    <string name="pass">password</string>
+    <string name="login">Login</string>
+    <string name="account">Don\'t have an Account?</string>
+    <string name="register">Register</string>
 </resources>

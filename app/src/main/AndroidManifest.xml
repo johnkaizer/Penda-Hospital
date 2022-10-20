@@ -14,17 +14,33 @@
         android:theme="@style/Theme.PendaHospital"
         tools:targetApi="31">
         <activity
-            android:name=".WelcomeScreenActivity"
+            android:name=".Reception.SecHomeActivity"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
-            android:exported="true">
+            android:name=".Doctors.DoctorsHomeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Aunthentication.SignUpActivity"
+            android:exported="false"
+            android:theme="@style/Theme.PendaHospital.NoActionBar"/>
+        <activity
+            android:name=".Aunthentication.LoginActivity"
+            android:exported="false"
+            android:theme="@style/Theme.PendaHospital.NoActionBar"/>
+        <activity
+            android:name=".Aunthentication.WelcomeScreenActivity"
+            android:exported="true"
+            android:theme="@style/Theme.PendaHospital.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".Patient.MainActivity"
+            android:exported="true"
+            android:theme="@style/Theme.PendaHospital.NoActionBar"/>
 
         <meta-data
             android:name="preloaded_fonts"

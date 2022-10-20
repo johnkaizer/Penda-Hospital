@@ -3,9 +3,14 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/PendaHospital/app/src/main/res/drawable/btn_back.xml" value="0.1445" />
         <entry key="..\:/PendaHospital/app/src/main/res/drawable/foreground.xml" value="0.1445" />
         <entry key="..\:/PendaHospital/app/src/main/res/drawable/forg.xml" value="0.1445" />
+        <entry key="..\:/PendaHospital/app/src/main/res/layout/activity_doctors_home.xml" value="0.1" />
+        <entry key="..\:/PendaHospital/app/src/main/res/layout/activity_login.xml" value="0.1" />
         <entry key="..\:/PendaHospital/app/src/main/res/layout/activity_main.xml" value="0.16530797101449277" />
+        <entry key="..\:/PendaHospital/app/src/main/res/layout/activity_sec_home.xml" value="0.1" />
+        <entry key="..\:/PendaHospital/app/src/main/res/layout/activity_sign_up.xml" value="0.18" />
         <entry key="..\:/PendaHospital/app/src/main/res/layout/activity_welcome_screen.xml" value="0.25" />
       </map>
     </option>

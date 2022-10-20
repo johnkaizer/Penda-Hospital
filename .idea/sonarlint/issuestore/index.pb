@@ -24,5 +24,3 @@ F
 Oapp/src/androidTest/java/com/project/pendahospital/ExampleInstrumentedTest.java,f\b\fb8afe808aedf9b2aaf41739b11e7186dcf63f0b
 p
 @app/src/test/java/com/project/pendahospital/ExampleUnitTest.java,c\9\c9059a383c4d9dda311bd9b1c2ef015474a7085e
-m
-=app/src/main/java/com/project/pendahospital/MainActivity.java,f\f\ff9b26266f6a8e8910eb73a8730feae334a1fe56
