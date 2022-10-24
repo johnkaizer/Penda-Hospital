@@ -24,3 +24,15 @@ F
 Oapp/src/androidTest/java/com/project/pendahospital/ExampleInstrumentedTest.java,f\b\fb8afe808aedf9b2aaf41739b11e7186dcf63f0b
 p
 @app/src/test/java/com/project/pendahospital/ExampleUnitTest.java,c\9\c9059a383c4d9dda311bd9b1c2ef015474a7085e
+P
+ app/src/main/AndroidManifest.xml,8\c\8c55c3ccc257e5907959013f99656e4c8ec3903e
+|
+Lapp/src/main/java/com/project/pendahospital/Doctors/DoctorsHomeActivity.java,b\3\b35263c004330dd04c7b8cec5f7d704af92aed72
+~
+Napp/src/main/java/com/project/pendahospital/Aunthentication/LoginActivity.java,5\9\59ef7e9440a34604a564e5261783112cf2800017
+z
+Japp/src/main/java/com/project/pendahospital/Reception/SecHomeActivity.java,1\f\1f5a59654633ebe8f1780184068a491aa7a1e269
+
+Oapp/src/main/java/com/project/pendahospital/Aunthentication/SignUpActivity.java,1\1\11406a152891fb583e2e9e9080cfc8446b52f09c
+†
+Vapp/src/main/java/com/project/pendahospital/Aunthentication/WelcomeScreenActivity.java,2\8\2890fa898ef399f5288455312597b496bbfda6a9
