@@ -24,8 +24,6 @@ F
 Oapp/src/androidTest/java/com/project/pendahospital/ExampleInstrumentedTest.java,f\b\fb8afe808aedf9b2aaf41739b11e7186dcf63f0b
 p
 @app/src/test/java/com/project/pendahospital/ExampleUnitTest.java,c\9\c9059a383c4d9dda311bd9b1c2ef015474a7085e
-P
- app/src/main/AndroidManifest.xml,8\c\8c55c3ccc257e5907959013f99656e4c8ec3903e
 |
 Lapp/src/main/java/com/project/pendahospital/Doctors/DoctorsHomeActivity.java,b\3\b35263c004330dd04c7b8cec5f7d704af92aed72
 ~

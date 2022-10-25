@@ -14,6 +14,30 @@
         android:theme="@style/Theme.PendaHospital"
         tools:targetApi="31">
         <activity
+            android:name=".Patient.EconsultActivity"
+            android:exported="false"
+            android:theme="@style/Theme.PendaHospital.NoActionBar"/>
+        <activity
+            android:name=".Patient.PhamarcyActivity"
+            android:exported="false"
+            android:theme="@style/Theme.PendaHospital.NoActionBar"/>
+        <activity
+            android:name=".Patient.DiagnosisActivity"
+            android:exported="false"
+            android:theme="@style/Theme.PendaHospital.NoActionBar"/>
+        <activity
+            android:name=".Patient.DoctorsActivity"
+            android:exported="false"
+            android:theme="@style/Theme.PendaHospital.NoActionBar"/>
+        <activity
+            android:name=".Patient.InsuranceActivity"
+            android:exported="false"
+            android:theme="@style/Theme.PendaHospital.NoActionBar"/>
+        <activity
+            android:name=".Patient.HospitalsActivity"
+            android:exported="false"
+            android:theme="@style/Theme.PendaHospital.NoActionBar" />
+        <activity
             android:name=".Reception.SecHomeActivity"
             android:exported="false" />
         <activity
@@ -22,11 +46,11 @@
         <activity
             android:name=".Aunthentication.SignUpActivity"
             android:exported="false"
-            android:theme="@style/Theme.PendaHospital.NoActionBar"/>
+            android:theme="@style/Theme.PendaHospital.NoActionBar" />
         <activity
             android:name=".Aunthentication.LoginActivity"
             android:exported="false"
-            android:theme="@style/Theme.PendaHospital.NoActionBar"/>
+            android:theme="@style/Theme.PendaHospital.NoActionBar" />
         <activity
             android:name=".Aunthentication.WelcomeScreenActivity"
             android:exported="true"
@@ -40,7 +64,7 @@
         <activity
             android:name=".Patient.MainActivity"
             android:exported="true"
-            android:theme="@style/Theme.PendaHospital.NoActionBar"/>
+            android:theme="@style/Theme.PendaHospital.NoActionBar" />
 
         <meta-data
             android:name="preloaded_fonts"
