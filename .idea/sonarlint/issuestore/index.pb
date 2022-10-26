@@ -1,8 +1,6 @@
 
 >
 app/.gitignore,5\1\51e1c5d383dfaa35e0e7e5873a0a99355a86880f
-@
-app/build.gradle,f\4\f4a01d6a4fcb971362ec00a83903fd3902f52164
 7
 gradlew,5\b\5bbfa66edb4db3c7c33c5181f43510990d3307f9
 X
@@ -24,8 +22,6 @@ F
 Oapp/src/androidTest/java/com/project/pendahospital/ExampleInstrumentedTest.java,f\b\fb8afe808aedf9b2aaf41739b11e7186dcf63f0b
 p
 @app/src/test/java/com/project/pendahospital/ExampleUnitTest.java,c\9\c9059a383c4d9dda311bd9b1c2ef015474a7085e
-|
-Lapp/src/main/java/com/project/pendahospital/Doctors/DoctorsHomeActivity.java,b\3\b35263c004330dd04c7b8cec5f7d704af92aed72
 ~
 Napp/src/main/java/com/project/pendahospital/Aunthentication/LoginActivity.java,5\9\59ef7e9440a34604a564e5261783112cf2800017
 z
