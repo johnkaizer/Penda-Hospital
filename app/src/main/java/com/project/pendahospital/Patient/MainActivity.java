@@ -6,11 +6,14 @@ import androidx.cardview.widget.CardView;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.ImageView;
 
 import com.project.pendahospital.R;
+import com.project.pendahospital.ShoppingCartActivity;
 
 public class MainActivity extends AppCompatActivity {
     private CardView card1, card2, card3, card4, card5, card6;
+    ImageView cart;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -22,6 +25,15 @@ public class MainActivity extends AppCompatActivity {
         card4 = findViewById(R.id.c4);
         card5 = findViewById(R.id.c5);
         card6 = findViewById(R.id.c6);
+        cart= findViewById(R.id.cart);
+        cart.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent= new Intent(MainActivity.this, ShoppingCartActivity.class);
+                startActivity(intent);
+
+            }
+        });
 
         card1.setOnClickListener(new View.OnClickListener() {
             @Override
