@@ -14,7 +14,7 @@ import com.project.pendahospital.Adapters.ProductsAdapter;
 import com.project.pendahospital.Models.PharmacyModel;
 import com.project.pendahospital.Models.ProductsModel;
 import com.project.pendahospital.R;
-import com.project.pendahospital.ShoppingCartActivity;
+import com.project.pendahospital.Activities.ShoppingCartActivity;
 
 import java.util.ArrayList;
 

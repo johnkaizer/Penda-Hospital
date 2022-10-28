@@ -30,3 +30,17 @@ Japp/src/main/java/com/project/pendahospital/Reception/SecHomeActivity.java,1\f
 Oapp/src/main/java/com/project/pendahospital/Aunthentication/SignUpActivity.java,1\1\11406a152891fb583e2e9e9080cfc8446b52f09c
 †
 Vapp/src/main/java/com/project/pendahospital/Aunthentication/WelcomeScreenActivity.java,2\8\2890fa898ef399f5288455312597b496bbfda6a9
+|
+Lapp/src/main/java/com/project/pendahospital/Doctors/DoctorsHomeActivity.java,b\3\b35263c004330dd04c7b8cec5f7d704af92aed72
+@
+app/build.gradle,f\4\f4a01d6a4fcb971362ec00a83903fd3902f52164
+v
+Fapp/src/main/java/com/project/pendahospital/Models/DiagnosisModel.java,3\f\3fb3a5b37a88c3963acf10e92ab4c3261e0dbd17
+y
+Iapp/src/main/java/com/project/pendahospital/Adapters/PharmacyAdapter.java,1\6\1650edce43e12804bedee2a147c5376cc7cbd9a2
+y
+Iapp/src/main/java/com/project/pendahospital/Adapters/ProductsAdapter.java,b\c\bcab178491751369b7e692e6b45484a9993e7a3d
+u
+Eapp/src/main/java/com/project/pendahospital/Models/ProductsModel.java,1\d\1d948ac383e545bc17d4488f4e4dffeb9e6021a2
+z
+Japp/src/main/java/com/project/pendahospital/Adapters/DiagnosisAdapter.java,3\1\314d87dadc12fdb1fc5d3affb2a649cf6921143d

@@ -14,9 +14,13 @@
         android:theme="@style/Theme.PendaHospital"
         tools:targetApi="31">
         <activity
-            android:name=".ShoppingCartActivity"
+            android:name=".UserActivity"
             android:exported="false"
             android:theme="@style/Theme.PendaHospital.NoActionBar"/>
+        <activity
+            android:name=".Activities.ShoppingCartActivity"
+            android:exported="false"
+            android:theme="@style/Theme.PendaHospital.NoActionBar" />
         <activity
             android:name=".Patient.EconsultActivity"
             android:exported="false"

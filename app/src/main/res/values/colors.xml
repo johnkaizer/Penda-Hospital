@@ -8,4 +8,11 @@
     <color name="red">#FF0000</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    ///color
+
+    <item name="color1" type="color">#FF98FB98</item>
+    <item name="color2" type="color">#FF9400D3</item>
+    <color name="color3">#009E60</color>
+    <item name="color4" type="color">#FFFFD700</item>
+    <item name="color5" type="color">#FFFFB6C1</item>
 </resources>

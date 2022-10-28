@@ -9,11 +9,13 @@ import android.view.View;
 import android.widget.ImageView;
 
 import com.project.pendahospital.R;
-import com.project.pendahospital.ShoppingCartActivity;
+import com.project.pendahospital.Activities.ShoppingCartActivity;
+import com.project.pendahospital.UserActivity;
 
 public class MainActivity extends AppCompatActivity {
     private CardView card1, card2, card3, card4, card5, card6;
     ImageView cart;
+    ImageView user;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -32,6 +34,14 @@ public class MainActivity extends AppCompatActivity {
                 Intent intent= new Intent(MainActivity.this, ShoppingCartActivity.class);
                 startActivity(intent);
 
+            }
+        });
+        user=findViewById(R.id.cart_btn);
+        user.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent= new Intent(MainActivity.this, UserActivity.class);
+                startActivity(intent);
             }
         });
 

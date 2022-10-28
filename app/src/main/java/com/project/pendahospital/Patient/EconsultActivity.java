@@ -8,7 +8,7 @@ import android.view.View;
 import android.widget.ImageView;
 
 import com.project.pendahospital.R;
-import com.project.pendahospital.ShoppingCartActivity;
+import com.project.pendahospital.Activities.ShoppingCartActivity;
 
 public class EconsultActivity extends AppCompatActivity {
     ImageView cart;
