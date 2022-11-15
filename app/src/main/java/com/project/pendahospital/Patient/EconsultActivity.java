@@ -9,9 +9,8 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
 
-import com.project.pendahospital.Adapters.HealthAdapter;
-import com.project.pendahospital.ConsultAdapter;
-import com.project.pendahospital.ConsultModel;
+import com.project.pendahospital.Adapters.ConsultAdapter;
+import com.project.pendahospital.Models.ConsultModel;
 import com.project.pendahospital.R;
 import com.project.pendahospital.Activities.ShoppingCartActivity;
 

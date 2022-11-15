@@ -1,4 +1,4 @@
-package com.project.pendahospital;
+package com.project.pendahospital.Models;
 
 public class ConsultModel {
     String DoctorName;

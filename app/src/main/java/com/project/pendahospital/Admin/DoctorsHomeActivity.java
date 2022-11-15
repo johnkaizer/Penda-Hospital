@@ -1,4 +1,4 @@
-package com.project.pendahospital.Doctors;
+package com.project.pendahospital.Admin;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.FragmentPagerAdapter;
@@ -8,8 +8,6 @@ import android.os.Bundle;
 
 import com.google.android.material.tabs.TabLayout;
 import com.project.pendahospital.Adapters.ViewPagerAdapter;
-import com.project.pendahospital.AppointmentFragment;
-import com.project.pendahospital.ProfileFragment;
 import com.project.pendahospital.R;
 
 public class DoctorsHomeActivity extends AppCompatActivity {
@@ -27,8 +25,10 @@ public class DoctorsHomeActivity extends AppCompatActivity {
 
         tabLayout.setupWithViewPager(viewPager);
         ViewPagerAdapter viewPagerAdapter= new ViewPagerAdapter(getSupportFragmentManager(), FragmentPagerAdapter.BEHAVIOR_RESUME_ONLY_CURRENT_FRAGMENT);
-        viewPagerAdapter.add(new AppointmentFragment(), "APPOINTMENTS");
-        viewPagerAdapter.add(new ProfileFragment(), "PROFILE");
+        viewPagerAdapter.add(new AppointmentFragment(), "SESSIONS");
+        viewPagerAdapter.add(new ProductsFragment(), "Orders");
+        viewPagerAdapter.add(new ProductsFragment(), "Doctors");
+        viewPagerAdapter.add(new ProductsFragment(), "Products");
         viewPager.setAdapter(viewPagerAdapter);
     }
 }

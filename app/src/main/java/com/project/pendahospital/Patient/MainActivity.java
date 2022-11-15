@@ -10,7 +10,6 @@ import android.widget.ImageView;
 
 import com.project.pendahospital.R;
 import com.project.pendahospital.Activities.ShoppingCartActivity;
-import com.project.pendahospital.UserActivity;
 
 public class MainActivity extends AppCompatActivity {
     private CardView card1, card2, card3, card4, card5, card6;

@@ -1,4 +1,4 @@
-package com.project.pendahospital;
+package com.project.pendahospital.Adapters;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -9,11 +9,11 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.project.pendahospital.Adapters.HealthAdapter;
+import com.project.pendahospital.Models.ConsultModel;
 import com.project.pendahospital.Patient.EconsultActivity;
+import com.project.pendahospital.R;
 
 import java.util.ArrayList;
-import java.util.List;
 
 public class ConsultAdapter extends RecyclerView.Adapter<ConsultAdapter.ViewHolder> {
     Context context;
