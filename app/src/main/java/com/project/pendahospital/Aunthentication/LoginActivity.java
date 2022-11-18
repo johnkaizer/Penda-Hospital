@@ -5,7 +5,10 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.text.method.HideReturnsTransformationMethod;
+import android.text.method.PasswordTransformationMethod;
 import android.util.Patterns;
+import android.view.MotionEvent;
 import android.view.View;
 import android.widget.Button;
 import android.widget.CheckBox;
@@ -29,6 +32,7 @@ public class LoginActivity extends AppCompatActivity {
     private EditText EditTextEmail,editTextPassword;
     private FirebaseAuth mAuth;
     private Button login;
+    boolean passwordVisible;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -38,6 +42,37 @@ public class LoginActivity extends AppCompatActivity {
         EditTextEmail = findViewById(R.id.editText2);
         editTextPassword = findViewById(R.id.editText3);
         progressBar = findViewById(R.id.progressBar);
+
+        editTextPassword.setOnTouchListener(new View.OnTouchListener() {
+            @Override
+            public boolean onTouch(View v, MotionEvent event) {
+                final int Right=2;
+                if (event.getAction()==MotionEvent.ACTION_UP){
+                    if (event.getRawX()>=editTextPassword.getRight()-editTextPassword.getCompoundDrawables()[Right].getBounds().width()){
+                        int selection=editTextPassword.getSelectionEnd();
+                        if (passwordVisible){
+                            //show password
+                            editTextPassword.setCompoundDrawablesRelativeWithIntrinsicBounds(0,0,R.drawable.visibility_off_24,0);
+                            //hide password
+                            editTextPassword.setTransformationMethod(PasswordTransformationMethod.getInstance());
+                            passwordVisible=false;
+
+                        }else {
+                            //show password
+                            editTextPassword.setCompoundDrawablesRelativeWithIntrinsicBounds(0,0,R.drawable.visibility_24,0);
+                            //show password
+                            editTextPassword.setTransformationMethod(HideReturnsTransformationMethod.getInstance());
+                            passwordVisible=true;
+
+                        }
+                        editTextPassword.setSelection(selection);
+                        return  true;
+
+                    }
+                }
+                return false;
+            }
+        });
     }
     public void login(View view) {
         if (admin.isChecked()){

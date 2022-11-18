@@ -32,10 +32,11 @@
         <entry key="..\:/PendaHospital/app/src/main/res/layout/diagnostic_items.xml" value="0.33" />
         <entry key="..\:/PendaHospital/app/src/main/res/layout/doc_consult_item.xml" value="0.18" />
         <entry key="..\:/PendaHospital/app/src/main/res/layout/doctor.xml" value="0.182518115942029" />
-        <entry key="..\:/PendaHospital/app/src/main/res/layout/doctor_item.xml" value="0.182518115942029" />
+        <entry key="..\:/PendaHospital/app/src/main/res/layout/doctor_item.xml" value="0.25" />
         <entry key="..\:/PendaHospital/app/src/main/res/layout/fragment_appointment.xml" value="0.17889492753623187" />
         <entry key="..\:/PendaHospital/app/src/main/res/layout/fragment_doctors.xml" value="0.1526268115942029" />
         <entry key="..\:/PendaHospital/app/src/main/res/layout/fragment_orders.xml" value="0.1526268115942029" />
+        <entry key="..\:/PendaHospital/app/src/main/res/layout/fragment_products.xml" value="0.13722826086956522" />
         <entry key="..\:/PendaHospital/app/src/main/res/layout/fragment_profile.xml" value="0.17889492753623187" />
         <entry key="..\:/PendaHospital/app/src/main/res/layout/health_isssues.xml" value="0.25" />
         <entry key="..\:/PendaHospital/app/src/main/res/layout/pharmacy_item.xml" value="0.25" />
