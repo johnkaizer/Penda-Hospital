@@ -1,19 +1,32 @@
 package com.project.pendahospital.Models;
 
 public class ConsultModel {
+    String ImageUrl;
     String DoctorName;
-    String DoctorTime;
+    String DocNumber;
     String DoctorPhone;
     String DoctorCategory;
+    String DoctorTime;
+
 
     public ConsultModel() {
     }
 
-    public ConsultModel(String doctorName, String doctorTime, String doctorPhone, String doctorCategory) {
+    public ConsultModel(String imageUrl, String doctorName, String docNumber, String doctorPhone, String doctorCategory, String doctorTime) {
+        ImageUrl = imageUrl;
         DoctorName = doctorName;
-        DoctorTime = doctorTime;
+        DocNumber = docNumber;
         DoctorPhone = doctorPhone;
         DoctorCategory = doctorCategory;
+        DoctorTime = doctorTime;
+    }
+
+    public String getImageUrl() {
+        return ImageUrl;
+    }
+
+    public void setImageUrl(String imageUrl) {
+        ImageUrl = imageUrl;
     }
 
     public String getDoctorName() {
@@ -24,12 +37,12 @@ public class ConsultModel {
         DoctorName = doctorName;
     }
 
-    public String getDoctorTime() {
-        return DoctorTime;
+    public String getDocNumber() {
+        return DocNumber;
     }
 
-    public void setDoctorTime(String doctorTime) {
-        DoctorTime = doctorTime;
+    public void setDocNumber(String docNumber) {
+        DocNumber = docNumber;
     }
 
     public String getDoctorPhone() {
@@ -46,5 +59,13 @@ public class ConsultModel {
 
     public void setDoctorCategory(String doctorCategory) {
         DoctorCategory = doctorCategory;
+    }
+
+    public String getDoctorTime() {
+        return DoctorTime;
+    }
+
+    public void setDoctorTime(String doctorTime) {
+        DoctorTime = doctorTime;
     }
 }

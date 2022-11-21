@@ -8,4 +8,15 @@
     <string name="register">Register</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    //Doctors categories
+    <string-array name="Categories">
+        <item>Dentist</item>
+        <item>Nurse</item>
+        <item>Cardiologist</item>
+        <item>Gynaecologist</item>
+        <item>Neurologists</item>
+        <item>Obstetricians</item>
+        <item>Pediatricians</item>
+        <item>Radiologists</item>
+    </string-array>
 </resources>

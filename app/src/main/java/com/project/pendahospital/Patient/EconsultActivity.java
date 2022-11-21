@@ -29,11 +29,11 @@ public class EconsultActivity extends AppCompatActivity {
         consultRv= findViewById(R.id.consults_rv);
         consultModels= new ArrayList<>();
 
-        consultModels.add(new ConsultModel("Dr Juma Kenya","10Am-02PM","0782345678"));
-        consultModels.add(new ConsultModel("Dr July Milton","08Am-02PM","07827373736"));
-        consultModels.add(new ConsultModel("Dr June Ethiopia","10Am-02PM","0782345678"));
-        consultModels.add(new ConsultModel("Dr Josh Jack","10Am-02PM","0782345678"));
-        consultModels.add(new ConsultModel("Dr Jelly Bean","10Am-02PM","0782345678"));
+        consultModels.add(new ConsultModel(R.drawable.image_24,"10Am-02PM","0782345678","Dentist"));
+        consultModels.add(new ConsultModel("Dr July Milton","08Am-02PM","07827373736","Dentist"));
+        consultModels.add(new ConsultModel("Dr June Ethiopia","10Am-02PM","0782345678","Dentist"));
+        consultModels.add(new ConsultModel("Dr Josh Jack","10Am-02PM","0782345678","Dentist"));
+        consultModels.add(new ConsultModel("Dr Jelly Bean","10Am-02PM","0782345678","Dentist"));
 
         consultAdapter = new ConsultAdapter(this, consultModels, this);
         consultRv.setAdapter(consultAdapter);
