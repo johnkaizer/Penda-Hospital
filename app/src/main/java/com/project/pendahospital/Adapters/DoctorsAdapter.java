@@ -1,17 +1,21 @@
 package com.project.pendahospital.Adapters;
 
 import android.content.Context;
+import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.project.pendahospital.BookAppointmentActivity;
 import com.project.pendahospital.Models.ConsultModel;
 import com.project.pendahospital.R;
+import com.squareup.picasso.Picasso;
 
 import java.util.ArrayList;
 
@@ -33,13 +37,16 @@ public class DoctorsAdapter extends RecyclerView.Adapter<DoctorsAdapter.ViewHold
 
     @Override
     public void onBindViewHolder(@NonNull DoctorsAdapter.ViewHolder holder, int position) {
-        holder.category.setText(list.get(position).getDoctorCategory());
-        holder.name.setText(list.get(position).getDoctorName());
-        holder.availability.setText(list.get(position).getDoctorTime());
+        ConsultModel consultModel= list.get(position);
+        holder.category.setText(consultModel.getDoctorCategory());
+        holder.name.setText(consultModel.getDoctorName());
+        holder.availability.setText(consultModel.getDoctorTime());
+        Picasso.get().load(consultModel.getImageUrl()).into(holder.image);
         holder.book.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
+                Intent intent = new Intent(context,BookAppointmentActivity.class);
+                context.startActivity(intent);
             }
         });
 
@@ -53,12 +60,14 @@ public class DoctorsAdapter extends RecyclerView.Adapter<DoctorsAdapter.ViewHold
     public class ViewHolder extends RecyclerView.ViewHolder {
         TextView name, category, availability;
         Button book;
+        ImageView image;
         public ViewHolder(@NonNull View itemView) {
             super(itemView);
             name = itemView.findViewById(R.id.doc_name);
             category = itemView.findViewById(R.id.doc_category);
             availability = itemView.findViewById(R.id.doc_availability);
             book = itemView.findViewById(R.id.book_btn);
+            image = itemView.findViewById(R.id.doc_image);
         }
     }
 }

@@ -10,15 +10,17 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.project.pendahospital.Models.ConsultModel;
 import com.project.pendahospital.Models.ProductsModel;
 import com.project.pendahospital.Patient.PhamarcyActivity;
 import com.project.pendahospital.R;
+import com.squareup.picasso.Picasso;
 
 import java.util.ArrayList;
 
 public class ProductsAdapter extends RecyclerView.Adapter<ProductsAdapter.ViewHolder> {
 
-    public ProductsAdapter(Context context, ArrayList<ProductsModel> list, PhamarcyActivity phamarcyActivity) {
+    public ProductsAdapter(Context context, ArrayList<ProductsModel> list) {
         this.context = context;
         this.list = list;
     }
@@ -34,9 +36,10 @@ public class ProductsAdapter extends RecyclerView.Adapter<ProductsAdapter.ViewHo
 
     @Override
     public void onBindViewHolder(@NonNull ProductsAdapter.ViewHolder holder, int position) {
-        holder.image.setImageResource(list.get(position).getImage());
-        holder.title.setText(list.get(position).getName());
-        holder.amount.setText(list.get(position).getAmount());
+        ProductsModel productsModel = list.get(position);
+        holder.title.setText(productsModel.getProductName());
+        holder.amount.setText(productsModel.getProductAmount());
+        Picasso.get().load(productsModel.getImageUrl()).into(holder.image);
 
     }
 

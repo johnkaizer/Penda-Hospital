@@ -13,6 +13,7 @@
         <entry key="..\:/PendaHospital/app/src/main/res/drawable/forg.xml" value="0.1445" />
         <entry key="..\:/PendaHospital/app/src/main/res/drawable/searchback.xml" value="0.139" />
         <entry key="..\:/PendaHospital/app/src/main/res/layout/activity_admin.xml" value="0.1526268115942029" />
+        <entry key="..\:/PendaHospital/app/src/main/res/layout/activity_book_appointment.xml" value="0.2" />
         <entry key="..\:/PendaHospital/app/src/main/res/layout/activity_consult.xml" value="0.16983695652173914" />
         <entry key="..\:/PendaHospital/app/src/main/res/layout/activity_diagnosis.xml" value="0.2" />
         <entry key="..\:/PendaHospital/app/src/main/res/layout/activity_doctors.xml" value="0.1716485507246377" />
@@ -21,7 +22,7 @@
         <entry key="..\:/PendaHospital/app/src/main/res/layout/activity_hospitals.xml" value="0.21" />
         <entry key="..\:/PendaHospital/app/src/main/res/layout/activity_insurance.xml" value="0.1716485507246377" />
         <entry key="..\:/PendaHospital/app/src/main/res/layout/activity_login.xml" value="0.25" />
-        <entry key="..\:/PendaHospital/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/PendaHospital/app/src/main/res/layout/activity_main.xml" value="0.1" />
         <entry key="..\:/PendaHospital/app/src/main/res/layout/activity_password.xml" value="0.1526268115942029" />
         <entry key="..\:/PendaHospital/app/src/main/res/layout/activity_phamarcy.xml" value="0.25" />
         <entry key="..\:/PendaHospital/app/src/main/res/layout/activity_sec_home.xml" value="0.1" />

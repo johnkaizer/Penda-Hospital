@@ -26,8 +26,8 @@ public class DoctorsHomeActivity extends AppCompatActivity {
         tabLayout.setupWithViewPager(viewPager);
         ViewPagerAdapter viewPagerAdapter= new ViewPagerAdapter(getSupportFragmentManager(), FragmentPagerAdapter.BEHAVIOR_RESUME_ONLY_CURRENT_FRAGMENT);
         viewPagerAdapter.add(new AppointmentFragment(), "SESSIONS");
-        viewPagerAdapter.add(new ProductsFragment(), "Orders");
-        viewPagerAdapter.add(new ProductsFragment(), "Doctors");
+        viewPagerAdapter.add(new OrdersFragment(), "Orders");
+        viewPagerAdapter.add(new DoctorsFragment(), "Doctors");
         viewPagerAdapter.add(new ProductsFragment(), "Products");
         viewPager.setAdapter(viewPagerAdapter);
     }

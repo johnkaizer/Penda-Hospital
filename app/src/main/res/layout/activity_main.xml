@@ -14,35 +14,17 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
-        <EditText
-            android:id="@+id/editText"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_margin="6dp"
-            android:layout_marginEnd="36dp"
-            android:background="@drawable/searchback"
-            android:drawableRight="@drawable/search_24"
-            android:drawablePadding="10dp"
-            android:fontFamily="@font/amita"
-            android:hint="Search Doctors,Medicine,Hospital..."
-            android:padding="10dp"
-            android:textColor="@color/black"
-            android:textColorHint="@color/grey"
-            android:textSize="14sp"
-            app:layout_constraintEnd_toStartOf="@+id/cart_btn"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
-
         <ImageView
             android:id="@+id/cart_btn"
             android:layout_width="40dp"
             android:layout_height="40dp"
+            android:layout_marginEnd="8dp"
             android:background="@drawable/searchback"
             android:padding="10dp"
             android:src="@drawable/person_24"
-            app:layout_constraintBottom_toBottomOf="@+id/editText"
+            app:layout_constraintBottom_toBottomOf="@+id/cart"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toEndOf="@+id/editText" />
+            app:layout_constraintTop_toTopOf="parent" />
 
         <TextView
             android:id="@+id/textView5"
@@ -50,7 +32,6 @@
             android:layout_height="wrap_content"
             android:layout_margin="6dp"
             android:layout_marginStart="16dp"
-            android:layout_marginTop="36dp"
             android:text="Welcome Back"
             android:textColor="@color/yellow"
             android:textSize="35sp"
@@ -74,11 +55,9 @@
             android:layout_width="50dp"
             android:layout_height="50dp"
             android:layout_marginEnd="8dp"
-            android:layout_marginBottom="8dp"
             android:src="@drawable/cart_24"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/cart_btn" />
+            app:layout_constraintEnd_toStartOf="@+id/cart_btn"
+            app:layout_constraintTop_toTopOf="parent" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 
     <RelativeLayout

@@ -5,10 +5,6 @@
 gradlew,5\b\5bbfa66edb4db3c7c33c5181f43510990d3307f9
 X
 (gradle/wrapper/gradle-wrapper.properties,f\b\fbe448ebfc3eb2d4e308f6b8b043666f5b57235e
-A
-gradle.properties,2\a\2afbb999f001938c88fa43fc2ef52abf0f8213e4
-?
-settings.gradle,0\5\05efc8b1657769a27696d478ded1e95f38737233
 ;
 gradlew.bat,2\a\2a45a911a8f1836b0b6c5b758962572012d8f8c3
 F
@@ -24,8 +20,6 @@ v
 Fapp/src/main/java/com/project/pendahospital/Models/DiagnosisModel.java,3\f\3fb3a5b37a88c3963acf10e92ab4c3261e0dbd17
 y
 Iapp/src/main/java/com/project/pendahospital/Adapters/PharmacyAdapter.java,1\6\1650edce43e12804bedee2a147c5376cc7cbd9a2
-y
-Iapp/src/main/java/com/project/pendahospital/Adapters/ProductsAdapter.java,b\c\bcab178491751369b7e692e6b45484a9993e7a3d
 z
 Japp/src/main/java/com/project/pendahospital/Adapters/DiagnosisAdapter.java,3\1\314d87dadc12fdb1fc5d3affb2a649cf6921143d
 z
@@ -36,37 +30,23 @@ z
 Japp/src/main/java/com/project/pendahospital/Patient/InsuranceActivity.java,5\a\5afdb801192c61abc4e9c41732d13be214fc6496
 €
 Papp/src/main/java/com/project/pendahospital/Activities/ShoppingCartActivity.java,8\b\8bd459769f2a25f1a614436c5f03bd0e1ba933dc
-y
-Iapp/src/main/java/com/project/pendahospital/Patient/PhamarcyActivity.java,7\a\7adf7ad0967fede60cea87cb9f504955a2b690f7
 z
 Japp/src/main/java/com/project/pendahospital/Patient/HospitalsActivity.java,d\f\df6f58914629e3ae23bd0e7bc41804ce73bb58fd
 z
 Japp/src/main/java/com/project/pendahospital/Adapters/ViewPagerAdapter.java,5\c\5c457039fb7bd125dadf4cdee3a9ad750ce33971
-†
-Vapp/src/main/java/com/project/pendahospital/Aunthentication/WelcomeScreenActivity.java,2\8\2890fa898ef399f5288455312597b496bbfda6a9
 H
 app/google-services.json,f\d\fd8d34b142d02ec743a8efefefd2c097961666e9
-@
-app/build.gradle,f\4\f4a01d6a4fcb971362ec00a83903fd3902f52164
 <
 build.gradle,f\0\f07866736216be0ee2aba49e392191aeae700a35
-P
- app/src/main/AndroidManifest.xml,8\c\8c55c3ccc257e5907959013f99656e4c8ec3903e
 z
 Japp/src/main/java/com/project/pendahospital/Admin/AppointmentFragment.java,1\a\1a5344056c36397a05fd4c7af4a776a43cd89179
-x
-Happ/src/main/java/com/project/pendahospital/Adapters/ConsultAdapter.java,8\c\8c820b811e1140b1e591c94b41b1175252a968a1
 u
 Eapp/src/main/java/com/project/pendahospital/Patient/MainActivity.java,8\a\8ac4f985fc308925ad7349d9765c7109ec8c2b27
 |
 Lapp/src/main/java/com/project/pendahospital/Activities/PasswordActivity.java,e\0\e02550b427a4eb7cbe623a5013a5b77c207c6cfb
-
-Oapp/src/main/java/com/project/pendahospital/Aunthentication/SignUpActivity.java,1\1\11406a152891fb583e2e9e9080cfc8446b52f09c
 l
 <app/src/main/java/com/project/pendahospital/Models/User.java,3\d\3d855fe5a8c846a5bb5650a3214e1c2c622b601a
 u
 Eapp/src/main/java/com/project/pendahospital/Patient/UserActivity.java,9\c\9c0904e329470dc16437337c5b8d8bcad18c395d
 w
 Gapp/src/main/java/com/project/pendahospital/Adapters/HealthAdapter.java,a\4\a4b09163c7e59812a0133501cd256bdb59396177
-~
-Napp/src/main/java/com/project/pendahospital/Aunthentication/LoginActivity.java,5\9\59ef7e9440a34604a564e5261783112cf2800017

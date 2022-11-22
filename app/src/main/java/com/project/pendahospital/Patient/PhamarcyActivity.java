@@ -1,5 +1,6 @@
 package com.project.pendahospital.Patient;
 
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
@@ -9,8 +10,15 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
 
+import com.google.firebase.database.DataSnapshot;
+import com.google.firebase.database.DatabaseError;
+import com.google.firebase.database.FirebaseDatabase;
+import com.google.firebase.database.Query;
+import com.google.firebase.database.ValueEventListener;
+import com.project.pendahospital.Adapters.DoctorsAdapter;
 import com.project.pendahospital.Adapters.PharmacyAdapter;
 import com.project.pendahospital.Adapters.ProductsAdapter;
+import com.project.pendahospital.Models.ConsultModel;
 import com.project.pendahospital.Models.PharmacyModel;
 import com.project.pendahospital.Models.ProductsModel;
 import com.project.pendahospital.R;
@@ -25,8 +33,9 @@ public class PhamarcyActivity extends AppCompatActivity {
 
     //Wellness Products
     ProductsAdapter productsAdapter;
-    ArrayList<ProductsModel> productsModels;
+    ArrayList<ProductsModel> list;
     RecyclerView products;
+    Query databaseReference;
 
     ImageView cart;
 
@@ -36,6 +45,30 @@ public class PhamarcyActivity extends AppCompatActivity {
         setContentView(R.layout.activity_phamarcy);
         pharmacy=findViewById(R.id.pharmacy);
         products= findViewById(R.id.products);
+
+        databaseReference = FirebaseDatabase.getInstance().getReference().child("ProductDetails");
+        products.setHasFixedSize(true);
+        products.setLayoutManager(new LinearLayoutManager(this,RecyclerView.HORIZONTAL, false));
+        list = new ArrayList<>();
+        productsAdapter = new ProductsAdapter(this,list);
+        products.setAdapter(productsAdapter);
+
+        databaseReference.addValueEventListener(new ValueEventListener() {
+            @Override
+            public void onDataChange(@NonNull DataSnapshot snapshot) {
+                for (DataSnapshot dataSnapshot : snapshot.getChildren()){
+
+                    ProductsModel productsModel = dataSnapshot.getValue(ProductsModel.class);
+                    list.add(productsModel);
+                }
+                productsAdapter.notifyDataSetChanged();
+            }
+
+            @Override
+            public void onCancelled(@NonNull DatabaseError error) {
+
+            }
+        });
         cart=findViewById(R.id.cart_btn);
         cart.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -59,24 +92,5 @@ public class PhamarcyActivity extends AppCompatActivity {
         pharmacy.setHasFixedSize(true);
         pharmacy.setNestedScrollingEnabled(false);
 
-        ///products
-        productsModels=new ArrayList<>();
-
-        productsModels.add(new ProductsModel(R.drawable.formula,"Dietary Supplement health Products","KSH 750"));
-        productsModels.add(new ProductsModel(R.drawable.med1,"Kidney Restore And cleaning Products","KSH 750"));
-        productsModels.add(new ProductsModel(R.drawable.med2,"Dietary Supplement For Kids","KSH 950"));
-        productsModels.add(new ProductsModel(R.drawable.med3," Supplement Diet Products","KSH 1700"));
-        productsModels.add(new ProductsModel(R.drawable.med4,"Softcare Sanitary Towels","KSH 120"));
-        productsModels.add(new ProductsModel(R.drawable.med5,"Kortex-Ultra  Sanitary Pads","KSH 200"));
-        productsModels.add(new ProductsModel(R.drawable.med6,"P-ALAXIN Malaria Drugs","KSH 550"));
-        productsModels.add(new ProductsModel(R.drawable.med7,"Bharat Typhoid Vaccine 82% effective","KSH 1050"));
-        productsModels.add(new ProductsModel(R.drawable.med8,"Blood Pressure Drugs","KSH 900"));
-        productsModels.add(new ProductsModel(R.drawable.med9,"Excedrin Migraine Pain Reliever Caplets","KSH 500"));
-
-        productsAdapter = new ProductsAdapter(this, productsModels, this);
-        products.setAdapter(productsAdapter);
-        products.setLayoutManager(new LinearLayoutManager(this,RecyclerView.HORIZONTAL, false));
-        products.setHasFixedSize(true);
-        products.setNestedScrollingEnabled(false);
     }
 }

@@ -1,37 +1,50 @@
 package com.project.pendahospital.Models;
 
 public class ProductsModel {
-    int image;
-    String name;
-    String amount;
+    String ImageUrl;
+    String ProductName;
+    String ProductAmount;
+    String ProductDescription;
 
-    public ProductsModel(int image, String name, String amount) {
-        this.image = image;
-        this.name = name;
-        this.amount = amount;
+    public ProductsModel() {
     }
 
-    public int getImage() {
-        return image;
+    public ProductsModel(String imageUrl, String productName, String productAmount, String productDescription) {
+        ImageUrl = imageUrl;
+        ProductName = productName;
+        ProductAmount = productAmount;
+        ProductDescription = productDescription;
     }
 
-    public void setImage(int image) {
-        this.image = image;
+    public String getImageUrl() {
+        return ImageUrl;
     }
 
-    public String getName() {
-        return name;
+    public void setImageUrl(String imageUrl) {
+        ImageUrl = imageUrl;
     }
 
-    public void setName(String name) {
-        this.name = name;
+    public String getProductName() {
+        return ProductName;
     }
 
-    public String getAmount() {
-        return amount;
+    public void setProductName(String productName) {
+        ProductName = productName;
     }
 
-    public void setAmount(String amount) {
-        this.amount = amount;
+    public String getProductAmount() {
+        return ProductAmount;
+    }
+
+    public void setProductAmount(String productAmount) {
+        ProductAmount = productAmount;
+    }
+
+    public String getProductDescription() {
+        return ProductDescription;
+    }
+
+    public void setProductDescription(String productDescription) {
+        ProductDescription = productDescription;
     }
 }
