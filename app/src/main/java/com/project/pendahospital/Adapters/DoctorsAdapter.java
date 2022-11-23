@@ -12,7 +12,7 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.project.pendahospital.BookAppointmentActivity;
+import com.project.pendahospital.Patient.BookAppointmentActivity;
 import com.project.pendahospital.Models.ConsultModel;
 import com.project.pendahospital.R;
 import com.squareup.picasso.Picasso;

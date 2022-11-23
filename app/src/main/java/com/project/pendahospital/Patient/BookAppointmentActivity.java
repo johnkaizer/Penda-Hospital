@@ -1,4 +1,4 @@
-package com.project.pendahospital;
+package com.project.pendahospital.Patient;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.AppCompatButton;
@@ -11,9 +11,12 @@ import android.widget.DatePicker;
 import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.TimePicker;
+import android.widget.Toast;
 
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
+import com.project.pendahospital.Models.AppointmentModel;
+import com.project.pendahospital.R;
 
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
@@ -94,6 +97,19 @@ public class BookAppointmentActivity extends AppCompatActivity {
     }
 
     private void placeOrder() {
+        String DocName =  docName.getText().toString();
+        String DocCategory =  Category.getText().toString();
+        String PatName =  patName.getText().toString();
+        String PatPhone =  patPhone.getText().toString();
+        String PatTime =  patTime.getText().toString();
+        String PatDate =  patDate.getText().toString();
+        AppointmentModel appointmentModel = new AppointmentModel(DocName,DocCategory,PatName,PatPhone,PatTime,PatDate);
+        dataRef.push().setValue(appointmentModel);
+        Toast.makeText(BookAppointmentActivity.this,"Appointment Successfully Booked",Toast.LENGTH_SHORT);
+       patName.setText("");
+       patPhone.setText("");
+       patTime.setText("");
+       patDate.setText("");
 
 
     }

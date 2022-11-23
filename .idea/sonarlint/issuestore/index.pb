@@ -18,8 +18,6 @@ p
 @app/src/test/java/com/project/pendahospital/ExampleUnitTest.java,c\9\c9059a383c4d9dda311bd9b1c2ef015474a7085e
 v
 Fapp/src/main/java/com/project/pendahospital/Models/DiagnosisModel.java,3\f\3fb3a5b37a88c3963acf10e92ab4c3261e0dbd17
-y
-Iapp/src/main/java/com/project/pendahospital/Adapters/PharmacyAdapter.java,1\6\1650edce43e12804bedee2a147c5376cc7cbd9a2
 z
 Japp/src/main/java/com/project/pendahospital/Adapters/DiagnosisAdapter.java,3\1\314d87dadc12fdb1fc5d3affb2a649cf6921143d
 z
@@ -38,10 +36,6 @@ H
 app/google-services.json,f\d\fd8d34b142d02ec743a8efefefd2c097961666e9
 <
 build.gradle,f\0\f07866736216be0ee2aba49e392191aeae700a35
-z
-Japp/src/main/java/com/project/pendahospital/Admin/AppointmentFragment.java,1\a\1a5344056c36397a05fd4c7af4a776a43cd89179
-u
-Eapp/src/main/java/com/project/pendahospital/Patient/MainActivity.java,8\a\8ac4f985fc308925ad7349d9765c7109ec8c2b27
 |
 Lapp/src/main/java/com/project/pendahospital/Activities/PasswordActivity.java,e\0\e02550b427a4eb7cbe623a5013a5b77c207c6cfb
 l
@@ -50,3 +44,25 @@ u
 Eapp/src/main/java/com/project/pendahospital/Patient/UserActivity.java,9\c\9c0904e329470dc16437337c5b8d8bcad18c395d
 w
 Gapp/src/main/java/com/project/pendahospital/Adapters/HealthAdapter.java,a\4\a4b09163c7e59812a0133501cd256bdb59396177
+u
+Eapp/src/main/java/com/project/pendahospital/Models/PharmacyModel.java,d\1\d1ac3af1c1e3d3cdf85157a1dfcb746fce02ca40
+u
+Eapp/src/main/java/com/project/pendahospital/Admin/OrdersFragment.java,b\9\b97393bfaee49e45dd317c10f55c6833068b9f05
+†
+Vapp/src/main/java/com/project/pendahospital/Aunthentication/WelcomeScreenActivity.java,2\8\2890fa898ef399f5288455312597b496bbfda6a9
+
+Oapp/src/main/java/com/project/pendahospital/Aunthentication/SignUpActivity.java,1\1\11406a152891fb583e2e9e9080cfc8446b52f09c
+?
+settings.gradle,0\5\05efc8b1657769a27696d478ded1e95f38737233
+@
+app/build.gradle,f\4\f4a01d6a4fcb971362ec00a83903fd3902f52164
+A
+gradle.properties,2\a\2afbb999f001938c88fa43fc2ef52abf0f8213e4
+z
+Japp/src/main/java/com/project/pendahospital/Admin/DoctorsHomeActivity.java,8\4\846fd3b3e572e6256f554fd3c56c08c459a82c86
+y
+Iapp/src/main/java/com/project/pendahospital/Patient/EconsultActivity.java,9\5\959a9f45ca8e6e675aa3fa7edcc391c8bc173ec4
+y
+Iapp/src/main/java/com/project/pendahospital/Patient/PhamarcyActivity.java,7\a\7adf7ad0967fede60cea87cb9f504955a2b690f7
+y
+Iapp/src/main/java/com/project/pendahospital/Adapters/ProductsAdapter.java,b\c\bcab178491751369b7e692e6b45484a9993e7a3d

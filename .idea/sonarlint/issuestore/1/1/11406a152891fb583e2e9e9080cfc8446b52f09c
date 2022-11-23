@@ -1,0 +1,13 @@
+
+J
+java:S1604W"(Make this anonymous inner class a lambda(Ÿ—ÙÎÿÿÿÿÿ8ı®ãÇ0
+E
+java:S1604O"(Make this anonymous inner class a lambda(³Ö×•8ş®ãÇ0
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(âÍàë
+l
+java:S1659"JDeclare "editTextEmail" and all following declarations on a separate line.(é€¸Ñüÿÿÿÿ8¡¿ŠãÇ0
+W
+java:S2209M"5Change this instance-reference to a static reference.(½¶›¹øÿÿÿÿ8À¯ãÇ0
+h	java:S100m"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ğé´èûÿÿÿÿ
+F
+java:S1172m"+Remove this unused method parameter "view".(ğé´èûÿÿÿÿ

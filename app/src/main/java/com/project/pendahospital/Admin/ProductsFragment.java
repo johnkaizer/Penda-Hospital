@@ -6,6 +6,7 @@ import android.os.Bundle;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import androidx.appcompat.widget.AppCompatButton;
 import androidx.fragment.app.Fragment;
 
 import android.view.LayoutInflater;
@@ -24,6 +25,7 @@ import com.google.firebase.storage.FirebaseStorage;
 import com.google.firebase.storage.OnProgressListener;
 import com.google.firebase.storage.StorageReference;
 import com.google.firebase.storage.UploadTask;
+import com.project.pendahospital.ProductsManagement;
 import com.project.pendahospital.R;
 
 import java.util.HashMap;
@@ -39,6 +41,7 @@ public class ProductsFragment extends Fragment {
     boolean isImageAdded= false;
     DatabaseReference dataRef;
     StorageReference storageRef;
+    AppCompatButton viewAll;
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
@@ -51,9 +54,15 @@ public class ProductsFragment extends Fragment {
         prodname = view.findViewById(R.id.prod_name);
         amount = view.findViewById(R.id.prod_amount);
         description = view.findViewById(R.id.prod_description);
+        viewAll=view.findViewById(R.id.view_btn1);
+        viewAll.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(getContext(), ProductsManagement.class));
+            }
+        });
+
         progressBar.setVisibility(View.GONE);
-
-
         dataRef = FirebaseDatabase.getInstance().getReference().child("ProductDetails");
         storageRef = FirebaseStorage.getInstance().getReference().child("ProductImage");
 
