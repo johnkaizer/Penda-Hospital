@@ -9,7 +9,7 @@ public class ProductsModel {
     public ProductsModel() {
     }
 
-    public ProductsModel(String imageUrl, String productName, String productAmount, String productDescription) {
+    public ProductsModel( String imageUrl, String productName, String productAmount, String productDescription) {
         ImageUrl = imageUrl;
         ProductName = productName;
         ProductAmount = productAmount;

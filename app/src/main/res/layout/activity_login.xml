@@ -59,7 +59,7 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:backgroundTint="@color/pink"
-        android:drawableLeft="@drawable/lock_24"
+        android:drawableStart="@drawable/lock_24"
         android:drawablePadding="14dp"
         android:hint="@string/pass"
         android:layout_marginTop="10dp"

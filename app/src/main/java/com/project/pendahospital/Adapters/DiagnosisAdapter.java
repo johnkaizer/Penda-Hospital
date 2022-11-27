@@ -55,7 +55,7 @@ public class DiagnosisAdapter extends RecyclerView.Adapter<DiagnosisAdapter.View
             icon = itemView.findViewById(R.id.profile_image);
             title = itemView.findViewById(R.id.disease);
             description = itemView.findViewById(R.id.description_text);
-            amount = itemView.findViewById(R.id.amount);
+            amount = itemView.findViewById(R.id.amount1);
 
         }
     }

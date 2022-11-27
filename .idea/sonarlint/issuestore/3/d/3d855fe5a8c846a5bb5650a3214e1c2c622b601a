@@ -7,6 +7,6 @@ l
 java:S1104"QMake phone a static final constant or non-public and provide accessors if needed.(‚Ô¹Ìøÿÿÿÿ
 o
 java:S1104"TMake password a static final constant or non-public and provide accessors if needed.(‚Ô¹Ìøÿÿÿÿ
-{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ÿ‰¦»ùÿÿÿÿ8ĞıâÇ0
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ÿ‰¦»ùÿÿÿÿ
 ]
 java:S1659"BDeclare "email" and all following declarations on a separate line.(‚Ô¹Ìøÿÿÿÿ

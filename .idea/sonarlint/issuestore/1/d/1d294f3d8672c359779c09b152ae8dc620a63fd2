@@ -1,0 +1,8 @@
+
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ÿ‰¦»ùÿÿÿÿ
+g	java:S116"RRename this field "DocName" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ùÙ¬ç
+p	java:S116"VRename this field "DocCategory" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ìà—şÿÿÿÿ
+g	java:S116"RRename this field "PatName" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Š°¶Ü
+o	java:S116"SRename this field "PatPhone" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ŞıÜÀ8¹ÑøˆÊ0
+l	java:S116"RRename this field "PatTime" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Š£ª—şÿÿÿÿ
+g	java:S116	"RRename this field "PatDate" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÌØ®Ï

@@ -23,7 +23,7 @@ import java.util.Calendar;
 import java.util.TimeZone;
 
 public class BookAppointmentActivity extends AppCompatActivity {
-    TextView docName,Category;
+    TextView docName,Category,docTime;
     EditText patName, patPhone,patDate,patTime;
     AppCompatButton submit;
     private DatePickerDialog picker;
@@ -36,7 +36,11 @@ public class BookAppointmentActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_book_appointment);
         docName = findViewById(R.id.doc_name);
+        docName.setText(getIntent().getExtras().getString("name"));
         Category = findViewById(R.id.doc_category);
+        Category.setText(getIntent().getExtras().getString("category"));
+        docTime = findViewById( R.id.doc_time);
+        docTime.setText(getIntent().getExtras().getString("time"));
         patName = findViewById(R.id.pat_name);
         patPhone = findViewById(R.id.pat_phone);
         patDate = findViewById(R.id.date);

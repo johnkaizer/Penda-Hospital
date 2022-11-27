@@ -6,6 +6,7 @@ import android.os.Bundle;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import androidx.appcompat.widget.AppCompatButton;
 import androidx.fragment.app.Fragment;
 
 import android.view.LayoutInflater;
@@ -42,12 +43,21 @@ public class DoctorsFragment extends Fragment {
     DatabaseReference dataRef;
     StorageReference storageRef;
     private Spinner spinner1;
+    AppCompatButton manage;
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         View view = inflater.inflate(R.layout.fragment_doctors, container, false);
+        manage= view.findViewById(R.id.View_btn);
+        manage.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(getContext(), DoctorsManagement.class));
+
+            }
+        });
         //Spinners
         spinner1 = view.findViewById(R.id.doctor_category_spinner);
         ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(getActivity() ,R.array.Categories, android.R.layout.simple_spinner_item);

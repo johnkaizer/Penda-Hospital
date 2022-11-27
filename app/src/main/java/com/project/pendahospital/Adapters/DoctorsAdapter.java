@@ -1,5 +1,6 @@
 package com.project.pendahospital.Adapters;
 
+import android.annotation.SuppressLint;
 import android.content.Context;
 import android.content.Intent;
 import android.view.LayoutInflater;
@@ -36,7 +37,7 @@ public class DoctorsAdapter extends RecyclerView.Adapter<DoctorsAdapter.ViewHold
     }
 
     @Override
-    public void onBindViewHolder(@NonNull DoctorsAdapter.ViewHolder holder, int position) {
+    public void onBindViewHolder(@NonNull DoctorsAdapter.ViewHolder holder, @SuppressLint("RecyclerView") int position) {
         ConsultModel consultModel= list.get(position);
         holder.category.setText(consultModel.getDoctorCategory());
         holder.name.setText(consultModel.getDoctorName());
@@ -46,6 +47,9 @@ public class DoctorsAdapter extends RecyclerView.Adapter<DoctorsAdapter.ViewHold
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(context,BookAppointmentActivity.class);
+                intent.putExtra("name",list.get(position).getDoctorName());
+                intent.putExtra("category",list.get(position).getDoctorCategory());
+                intent.putExtra("time",list.get(position).getDoctorTime());
                 context.startActivity(intent);
             }
         });
