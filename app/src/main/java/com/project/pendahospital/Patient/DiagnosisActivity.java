@@ -32,6 +32,7 @@ public class DiagnosisActivity extends AppCompatActivity {
         diagnosisModels.add(new DiagnosisModel(R.drawable.cancert,"Cancer RT-CPR","Abnormal cells divide uncontrollably and destroy body tissue","KSH 4000"));
         diagnosisModels.add(new DiagnosisModel(R.drawable.hivt,"HIV/AIDS Test","A rapid antibody test, done with oral fluid, results are ready in 30 minutes or less","KSH 4000"));
         diagnosisModels.add(new DiagnosisModel(R.drawable.typhoidt,"TYPHOID Test","Performing a culture test ","KSH 1000"));
+        diagnosisModels.add(new DiagnosisModel(R.drawable.covid19,"COVID-19 Test","Nose swabs ","KSH 1"));
         diagnosisModels.add(new DiagnosisModel(R.drawable.malariat,"Malaria Test","Examining under the microscope a drop of the patient's blood","KSH 7000"));
 
         diagnosisAdapter = new DiagnosisAdapter(this, diagnosisModels, this);

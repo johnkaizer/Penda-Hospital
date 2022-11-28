@@ -37,14 +37,14 @@ public class BookAppointmentActivity extends AppCompatActivity {
         setContentView(R.layout.activity_book_appointment);
         docName = findViewById(R.id.doc_name);
         docName.setText(getIntent().getExtras().getString("name"));
-        Category = findViewById(R.id.doc_category);
+        Category = findViewById(R.id.test_amount);
         Category.setText(getIntent().getExtras().getString("category"));
         docTime = findViewById( R.id.doc_time);
         docTime.setText(getIntent().getExtras().getString("time"));
         patName = findViewById(R.id.pat_name);
-        patPhone = findViewById(R.id.pat_phone);
+        patPhone = findViewById(R.id.pat_name);
         patDate = findViewById(R.id.date);
-        patTime = findViewById(R.id.pat_time);
+        patTime = findViewById(R.id.pat_no);
         submit= findViewById(R.id.submit_btn);
 
         submit.setOnClickListener(new View.OnClickListener() {

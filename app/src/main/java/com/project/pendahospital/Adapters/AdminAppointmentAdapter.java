@@ -54,9 +54,9 @@ public class AdminAppointmentAdapter extends RecyclerView.Adapter<AdminAppointme
             doctor = itemView.findViewById(R.id.doc_name);
             category = itemView.findViewById(R.id.doc_cat);
             name = itemView.findViewById(R.id.pat_name);
-            time = itemView.findViewById(R.id.pat_time);
+            time = itemView.findViewById(R.id.pat_no);
             date = itemView.findViewById(R.id.pat_date);
-            phone = itemView.findViewById(R.id.pat_phone);
+            phone = itemView.findViewById(R.id.pat_name);
 
         }
     }

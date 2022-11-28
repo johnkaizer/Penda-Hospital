@@ -133,7 +133,7 @@
             app:layout_constraintTop_toTopOf="@+id/textView39" />
 
         <TextView
-            android:id="@+id/pat_phone"
+            android:id="@+id/pat_name"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="5dp"
@@ -145,7 +145,7 @@
             app:layout_constraintStart_toEndOf="@+id/textView40"
             app:layout_constraintTop_toTopOf="@+id/textView40" />
         <TextView
-            android:id="@+id/pat_time"
+            android:id="@+id/pat_no"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="5dp"

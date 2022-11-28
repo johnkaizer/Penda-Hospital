@@ -46,15 +46,15 @@ public class MakeOrderActivity extends AppCompatActivity {
         setContentView(R.layout.activity_make_order);
         docName = findViewById(R.id.doc_name);
         docName.setText(getIntent().getExtras().getString("title"));
-        Category = findViewById(R.id.doc_category);
+        Category = findViewById(R.id.test_amount);
         Category.setText(getIntent().getExtras().getString("amount"));
         docTime = findViewById( R.id.doc_time);
         Calendar calendar = Calendar.getInstance();
         String currentDate = DateFormat.getDateInstance().format(calendar.getTime());
         docTime.setText(currentDate);
         patName = findViewById(R.id.pat_name);
-        patPhone = findViewById(R.id.pat_phone);
-        patTime = findViewById(R.id.pat_time);
+        patPhone = findViewById(R.id.pat_name);
+        patTime = findViewById(R.id.pat_no);
         submit= findViewById(R.id.submit_btn);
         dataRef= FirebaseDatabase.getInstance().getReference().child("TransactionDetails");
 
@@ -95,10 +95,10 @@ public class MakeOrderActivity extends AppCompatActivity {
     private void PaymentDetails() {
         String TransactionDate =  docTime.getText().toString();
         String TransactionTitle =  patName.getText().toString();
-        String TransactionAmount =  patPhone.getText().toString();
-        String Product =  patPhone.getText().toString();
+        String TransactionAmount =  Category.getText().toString();
+        String Product =  docName.getText().toString();
         String CustomerPhone =  patPhone.getText().toString();
-        String Location =  patPhone.getText().toString();
+        String Location =  patTime.getText().toString();
 
         TransactionModel deposit = new TransactionModel(TransactionTitle,TransactionAmount,TransactionDate,Product,CustomerPhone,Location);
         dataRef.push().setValue(deposit);

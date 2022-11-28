@@ -60,7 +60,7 @@
         app:layout_constraintTop_toBottomOf="@+id/textView29" />
 
     <TextView
-        android:id="@+id/doc_category"
+        android:id="@+id/test_amount"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
@@ -157,7 +157,7 @@
         app:layout_constraintTop_toTopOf="@+id/textView31" />
 
     <com.google.android.material.textfield.TextInputEditText
-        android:id="@+id/pat_phone"
+        android:id="@+id/pat_name"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:hint="Enter phone number "
@@ -170,7 +170,7 @@
         app:layout_constraintTop_toTopOf="@+id/textView32" />
 
     <EditText
-        android:id="@+id/pat_time"
+        android:id="@+id/pat_no"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:backgroundTint="@color/black"

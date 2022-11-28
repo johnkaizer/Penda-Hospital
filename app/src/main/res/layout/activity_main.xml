@@ -267,7 +267,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="12dp"
-                        android:text="Insurance"
+                        android:text="Health Cover"
                         android:textColor="@color/black"
                         android:textSize="18sp"
                         android:textStyle="bold" />
