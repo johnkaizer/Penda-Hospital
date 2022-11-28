@@ -92,7 +92,7 @@
             app:placeholderTextColor="@color/black">
 
             <com.google.android.material.textfield.TextInputEditText
-                android:id="@+id/doc_name"
+                android:id="@+id/test_name"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="name e.g Vicky Test"

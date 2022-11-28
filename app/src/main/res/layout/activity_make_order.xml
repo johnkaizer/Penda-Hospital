@@ -5,7 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MakeOrderActivity"
+    tools:context=".Activities.MakeOrderActivity"
     android:background="@color/white"
     android:orientation="vertical">
 
@@ -14,7 +14,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
-        android:text="Fill the details below to Make a purchase"
+        android:text="Fill the details below to Make payments"
         android:textColor="@color/black"
         android:textSize="22sp"
         android:textStyle="bold"
@@ -36,7 +36,7 @@
         app:layout_constraintTop_toBottomOf="@+id/textView28" />
 
     <TextView
-        android:id="@+id/doc_name"
+        android:id="@+id/test_name"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
@@ -145,7 +145,7 @@
         app:layout_constraintTop_toTopOf="@+id/textView31" />
 
     <com.google.android.material.textfield.TextInputEditText
-        android:id="@+id/pat_name"
+        android:id="@+id/pat_phone"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:hint="Enter phone number "
@@ -158,7 +158,7 @@
         app:layout_constraintTop_toTopOf="@+id/textView32" />
 
     <EditText
-        android:id="@+id/pat_no"
+        android:id="@+id/pat_time"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:backgroundTint="@color/black"
@@ -182,6 +182,6 @@
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/pat_no" />
+        app:layout_constraintTop_toBottomOf="@+id/pat_time" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

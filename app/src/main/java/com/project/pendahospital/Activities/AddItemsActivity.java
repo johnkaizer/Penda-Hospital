@@ -1,4 +1,4 @@
-package com.project.pendahospital;
+package com.project.pendahospital.Activities;
 
 import static com.project.pendahospital.DBmain.TABLENAME;
 
@@ -7,11 +7,13 @@ import androidx.appcompat.widget.AppCompatButton;
 
 import android.content.ContentValues;
 import android.database.sqlite.SQLiteDatabase;
-import android.database.sqlite.SQLiteOpenHelper;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import com.project.pendahospital.DBmain;
+import com.project.pendahospital.R;
 
 public class AddItemsActivity extends AppCompatActivity {
     TextView title1,amount1;

@@ -57,7 +57,7 @@ public class AdminDoctorsAdapter extends RecyclerView.Adapter<AdminDoctorsAdapte
             super(itemView);
             image = itemView.findViewById(R.id.image_txt);
             flow_menu = itemView.findViewById(R.id.flow_menu);
-            name = itemView.findViewById(R.id.doc_name);
+            name = itemView.findViewById(R.id.test_name);
             number = itemView.findViewById(R.id.doc_number);
             phone = itemView.findViewById(R.id.doc_phone);
             category = itemView.findViewById(R.id.doc_cat);

@@ -10,7 +10,7 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.project.pendahospital.R;
-import com.project.pendahospital.TransactionModel;
+import com.project.pendahospital.Models.TransactionModel;
 
 import java.util.ArrayList;
 

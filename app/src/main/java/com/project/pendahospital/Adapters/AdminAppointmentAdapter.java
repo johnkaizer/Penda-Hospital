@@ -51,10 +51,10 @@ public class AdminAppointmentAdapter extends RecyclerView.Adapter<AdminAppointme
         TextView doctor,category, name,time,date,phone;
         public ViewHolder(@NonNull View itemView) {
             super(itemView);
-            doctor = itemView.findViewById(R.id.doc_name);
+            doctor = itemView.findViewById(R.id.test_name);
             category = itemView.findViewById(R.id.doc_cat);
             name = itemView.findViewById(R.id.pat_name);
-            time = itemView.findViewById(R.id.pat_no);
+            time = itemView.findViewById(R.id.pat_time);
             date = itemView.findViewById(R.id.pat_date);
             phone = itemView.findViewById(R.id.pat_name);
 

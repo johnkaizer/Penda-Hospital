@@ -14,7 +14,7 @@ import com.google.firebase.database.Query;
 import com.google.firebase.database.ValueEventListener;
 import com.project.pendahospital.R;
 import com.project.pendahospital.Adapters.TransactionAdapter;
-import com.project.pendahospital.TransactionModel;
+import com.project.pendahospital.Models.TransactionModel;
 
 import java.util.ArrayList;
 

@@ -12,6 +12,7 @@ import android.widget.Toast;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.project.pendahospital.Models.InsuranceModel;
+import com.project.pendahospital.Patient.InsuranceActivity;
 import com.project.pendahospital.Patient.MainActivity;
 import com.project.pendahospital.R;
 
@@ -24,7 +25,7 @@ public class CoverActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_cover);
         name= findViewById(R.id.pat_name);
-        number= findViewById(R.id.pat_no);
+        number= findViewById(R.id.pat_time);
         submit= findViewById(R.id.submit_btn);
         dataRef= FirebaseDatabase.getInstance().getReference().child("InsuranceDetails");
 
@@ -45,7 +46,7 @@ public class CoverActivity extends AppCompatActivity {
         InsuranceModel details = new InsuranceModel(patName,patNo);
         dataRef.push().setValue(details);
         Toast.makeText(this,"Successfully submitted your details",Toast.LENGTH_SHORT).show();
-        Intent intent = new Intent(CoverActivity.this, MainActivity.class);
+        Intent intent = new Intent(CoverActivity.this, InsuranceActivity.class);
         startActivity(intent);
         finish();
     }

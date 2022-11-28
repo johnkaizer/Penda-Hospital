@@ -13,11 +13,8 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.project.pendahospital.AddItemsActivity;
-import com.project.pendahospital.MakeOrderActivity;
-import com.project.pendahospital.Models.ConsultModel;
+import com.project.pendahospital.Activities.MakeOrderActivity;
 import com.project.pendahospital.Models.ProductsModel;
-import com.project.pendahospital.Patient.PhamarcyActivity;
 import com.project.pendahospital.R;
 import com.squareup.picasso.Picasso;
 

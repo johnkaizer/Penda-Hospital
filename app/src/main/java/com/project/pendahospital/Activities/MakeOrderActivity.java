@@ -1,4 +1,4 @@
-package com.project.pendahospital;
+package com.project.pendahospital.Activities;
 
 import static com.project.pendahospital.Constants.BUSINESS_SHORT_CODE;
 import static com.project.pendahospital.Constants.CALLBACKURL;
@@ -19,8 +19,12 @@ import android.widget.TextView;
 
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
+import com.project.pendahospital.DarajaApiClient;
 import com.project.pendahospital.Models.AccessToken;
 import com.project.pendahospital.Models.STKPush;
+import com.project.pendahospital.R;
+import com.project.pendahospital.Models.TransactionModel;
+import com.project.pendahospital.Utils;
 
 import java.text.DateFormat;
 import java.util.Calendar;
@@ -44,7 +48,7 @@ public class MakeOrderActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_make_order);
-        docName = findViewById(R.id.doc_name);
+        docName = findViewById(R.id.test_name);
         docName.setText(getIntent().getExtras().getString("title"));
         Category = findViewById(R.id.test_amount);
         Category.setText(getIntent().getExtras().getString("amount"));
@@ -53,8 +57,8 @@ public class MakeOrderActivity extends AppCompatActivity {
         String currentDate = DateFormat.getDateInstance().format(calendar.getTime());
         docTime.setText(currentDate);
         patName = findViewById(R.id.pat_name);
-        patPhone = findViewById(R.id.pat_name);
-        patTime = findViewById(R.id.pat_no);
+        patPhone = findViewById(R.id.pat_phone);
+        patTime = findViewById(R.id.pat_time);
         submit= findViewById(R.id.submit_btn);
         dataRef= FirebaseDatabase.getInstance().getReference().child("TransactionDetails");
 

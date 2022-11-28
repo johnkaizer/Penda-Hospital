@@ -1,0 +1,35 @@
+
+E
+java:S3740g"/Provide the parametrized type for this generic.(‹Ž¤·
+E
+java:S3740g"/Provide the parametrized type for this generic.(‹Ž¤·
+C
+java:S16049"(Make this anonymous inner class a lambda(†øýôúÿÿÿÿ
+C
+java:S1604D"(Make this anonymous inner class a lambda(û­ÎÄüÿÿÿÿ
+C
+java:S1604M"(Make this anonymous inner class a lambda(Ýø¡õúÿÿÿÿ
+C
+java:S1604m"(Make this anonymous inner class a lambda(‹ŠòÍúÿÿÿÿ
+>
+java:S1604d"(Make this anonymous inner class a lambda(ê×™›
+C
+java:S1604a"(Make this anonymous inner class a lambda(ëŒ¿±þÿÿÿÿ
+C
+java:S1604}"(Make this anonymous inner class a lambda( ú±³úÿÿÿÿ
+^
+java:S2184€"BCast one of the operands of this division operation to a "double".(½ýáÏúÿÿÿÿ
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ó¤‘öüÿÿÿÿ
+h	java:S116%"SRename this field "Addimage" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(²¸Ãû
+=
+java:S1659%"'Declare "submitbtn" on a separate line.(²¸Ãû
+Y
+java:S1659&"CDeclare "amount" and all following declarations on a separate line.(ÊÖÔõ
+T
+java:S1874J">Remove this use of "startActivityForResult"; it is deprecated.(ÏÍÖ„
+=
+java:S1125T"'Remove the unnecessary boolean literal.(±¬³ƒ
+f
+java:S1874‰"JDon't override a deprecated method or explicitly mark it as "@Deprecated".(™­²©ùÿÿÿÿ
+T
+java:S1874Š"8Remove this use of "onActivityResult"; it is deprecated.(Žß¬©úÿÿÿÿ

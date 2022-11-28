@@ -67,7 +67,7 @@ public class DoctorsFragment extends Fragment {
         image =view.findViewById(R.id.doc_image);
         Addimage=view.findViewById(R.id.appCompatButton2);
         submitbtn=view.findViewById(R.id.appCompatButton3);
-        docname=view.findViewById(R.id.doc_name);
+        docname=view.findViewById(R.id.test_name);
         phone=view.findViewById(R.id.doc_phone);
         number=view.findViewById(R.id.doc_number);
         time= view.findViewById(R.id.doc_time);

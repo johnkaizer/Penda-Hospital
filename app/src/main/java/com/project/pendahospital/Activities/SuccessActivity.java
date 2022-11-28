@@ -1,4 +1,4 @@
-package com.project.pendahospital;
+package com.project.pendahospital.Activities;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.AppCompatButton;
@@ -8,6 +8,7 @@ import android.os.Bundle;
 import android.view.View;
 
 import com.project.pendahospital.Patient.MainActivity;
+import com.project.pendahospital.R;
 
 public class SuccessActivity extends AppCompatActivity {
     AppCompatButton done1;

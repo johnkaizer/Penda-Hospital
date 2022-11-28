@@ -67,7 +67,7 @@ public class DoctorsAdapter extends RecyclerView.Adapter<DoctorsAdapter.ViewHold
         ImageView image;
         public ViewHolder(@NonNull View itemView) {
             super(itemView);
-            name = itemView.findViewById(R.id.doc_name);
+            name = itemView.findViewById(R.id.test_name);
             category = itemView.findViewById(R.id.test_amount);
             availability = itemView.findViewById(R.id.doc_availability);
             book = itemView.findViewById(R.id.book_btn);

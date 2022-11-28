@@ -14,10 +14,9 @@ import androidx.appcompat.widget.AppCompatButton;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.project.pendahospital.Models.DiagnosisModel;
-import com.project.pendahospital.Patient.BookAppointmentActivity;
 import com.project.pendahospital.Patient.DiagnosisActivity;
 import com.project.pendahospital.R;
-import com.project.pendahospital.TestActivity;
+import com.project.pendahospital.Activities.TestActivity;
 
 import java.util.ArrayList;
 
@@ -47,9 +46,7 @@ public class DiagnosisAdapter extends RecyclerView.Adapter<DiagnosisAdapter.View
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(context, TestActivity.class);
-                intent.putExtra("image",list.get(position).getImage());
                 intent.putExtra("title",list.get(position).getDisease());
-                intent.putExtra("description",list.get(position).getDescription());
                 intent.putExtra("amount",list.get(position).getAmount());
                 context.startActivity(intent);
             }

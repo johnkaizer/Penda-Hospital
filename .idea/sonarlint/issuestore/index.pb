@@ -54,8 +54,6 @@ l
 <app/src/main/java/com/project/pendahospital/Models/User.java,3\d\3d855fe5a8c846a5bb5650a3214e1c2c622b601a
 
 Oapp/src/main/java/com/project/pendahospital/Aunthentication/SignUpActivity.java,1\1\11406a152891fb583e2e9e9080cfc8446b52f09c
-{
-Kapp/src/main/java/com/project/pendahospital/Adapters/ProductManAdapter.java,9\7\97f2163356ab53e39d6586fbb7d4346c2f7ecd76
 u
 Eapp/src/main/java/com/project/pendahospital/Patient/MainActivity.java,8\a\8ac4f985fc308925ad7349d9765c7109ec8c2b27
 u
@@ -82,12 +80,8 @@ p
 @app/src/main/java/com/project/pendahospital/DarajaApiClient.java,7\8\78144e513c59ce50caef4d20c60b8675ef733f3f
 g
 7app/src/main/java/com/project/pendahospital/DBmain.java,5\8\58dbd51ebb1b1b35477c975cd4e5eccf291ccf2f
-v
-Fapp/src/main/java/com/project/pendahospital/Admin/DoctorsFragment.java,d\4\d499296f81c979204472f4e0a9cd355e36db2b20
 x
 Happ/src/main/java/com/project/pendahospital/Admin/DoctorsManagement.java,5\b\5b53bedb94607fba9135368396dd4f7e68d36268
-y
-Iapp/src/main/java/com/project/pendahospital/Adapters/ProductsAdapter.java,b\c\bcab178491751369b7e692e6b45484a9993e7a3d
 w
 Gapp/src/main/java/com/project/pendahospital/Admin/ProductsFragment.java,7\6\7669ac1650505bf66b8193731391365d15e55c1a
 y
