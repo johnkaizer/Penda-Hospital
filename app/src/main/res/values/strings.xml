@@ -19,4 +19,9 @@
         <item>Pediatricians</item>
         <item>Radiologists</item>
     </string-array>
+    //Drop down Cardviews in user profile
+    <string name="penda_details">When you\'re not feeling well, you need someone who cares and you need the right treatment. Penda is committed to both. Whether you are accessing virtual care with Pigia Penda or visiting one of our medical centers, you will start feeling better just from interacting with our friendly staff.</string>
+    <string name="penda_details1">The "Penda Hospital Application" has been designed and developend for the Umoja Phase 2 Penda Health Branch to help in management and billing of services and soon will launch to other Penda health facilities/Branches across the country.</string>
+    <string name="penda_details2">You can also be confident that you have gotten the best treatment for your condition without overpaying, thanks to our licensed medical providers and our clinical decision support technology.<b>promise to put you and your health first!</b> </string>
+    <string name="penda">\@PendaHealth</string>
 </resources>

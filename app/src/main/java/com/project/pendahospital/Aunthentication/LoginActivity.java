@@ -132,12 +132,12 @@ public class LoginActivity extends AppCompatActivity {
                     FirebaseUser user = FirebaseAuth.getInstance().getCurrentUser();
 
                     startActivity(new Intent(LoginActivity.this, MainActivity.class));
+                    finish();
                     Toast.makeText(LoginActivity.this,"Logged in successfully",Toast.LENGTH_SHORT).show();
-                    progressBar.setVisibility(View.GONE);
                 }else{
                     Toast.makeText(LoginActivity.this,"Failed to log in check your credentials and Internet connection",Toast.LENGTH_SHORT).show();
-                    progressBar.setVisibility(View.GONE);
                 }
+                progressBar.setVisibility(View.GONE);
             }
         });
     }

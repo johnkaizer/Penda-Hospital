@@ -1,6 +1,7 @@
 package com.project.pendahospital.Patient;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.AppCompatButton;
 import androidx.cardview.widget.CardView;
 
 import android.content.Intent;
@@ -8,6 +9,8 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
 
+import com.google.firebase.auth.FirebaseAuth;
+import com.project.pendahospital.Aunthentication.LoginActivity;
 import com.project.pendahospital.R;
 import com.project.pendahospital.Activities.ShoppingCartActivity;
 
@@ -15,6 +18,7 @@ public class MainActivity extends AppCompatActivity {
     private CardView card1, card2, card3, card4, card5, card6;
     ImageView cart;
     ImageView user;
+    AppCompatButton logout;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -84,6 +88,15 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, EconsultActivity.class);
                 startActivity(intent);
+            }
+        });
+        logout = findViewById(R.id.btn_logout);
+        logout.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                FirebaseAuth.getInstance().signOut();
+                startActivity(new Intent(MainActivity.this, LoginActivity.class));
+                finish();
             }
         });
 

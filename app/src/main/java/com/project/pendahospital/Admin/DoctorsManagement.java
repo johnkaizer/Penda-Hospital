@@ -13,9 +13,7 @@ import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.Query;
 import com.google.firebase.database.ValueEventListener;
 import com.project.pendahospital.Adapters.AdminDoctorsAdapter;
-import com.project.pendahospital.Adapters.ProductManAdapter;
 import com.project.pendahospital.Models.ConsultModel;
-import com.project.pendahospital.Models.ProductsModel;
 import com.project.pendahospital.R;
 
 import java.util.ArrayList;
@@ -30,7 +28,7 @@ public class DoctorsManagement extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_doctors_management);
-        docRec=findViewById(R.id.doctors);
+        docRec=findViewById(R.id.tests);
 
         databaseReference = FirebaseDatabase.getInstance().getReference().child("DoctorsDetails");
         docRec.setHasFixedSize(true);

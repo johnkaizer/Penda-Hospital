@@ -27,6 +27,7 @@ public class ShoppingCartActivity extends AppCompatActivity {
     ArrayList<TransactionModel>list;
     Query databaseReference;
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
