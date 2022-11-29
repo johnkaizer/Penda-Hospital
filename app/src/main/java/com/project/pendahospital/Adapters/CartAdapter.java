@@ -1,13 +1,10 @@
 package com.project.pendahospital.Adapters;
 
-import static com.project.pendahospital.DBmain.TABLENAME;
+import static com.project.pendahospital.Adapters.DBmain.TABLENAME;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;
-import android.graphics.Bitmap;
-import android.graphics.BitmapFactory;
-import android.media.Image;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -19,9 +16,7 @@ import android.widget.Toast;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.project.pendahospital.DBmain;
 import com.project.pendahospital.Models.CartModel;
-import com.project.pendahospital.Models.ProductsModel;
 import com.project.pendahospital.R;
 
 import java.util.ArrayList;

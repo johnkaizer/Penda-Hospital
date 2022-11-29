@@ -1,4 +1,4 @@
-package com.project.pendahospital;
+package com.project.pendahospital.Adapters;
 
 import android.content.Context;
 import android.database.Cursor;
