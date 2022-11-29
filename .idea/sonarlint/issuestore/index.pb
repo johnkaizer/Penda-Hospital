@@ -44,8 +44,6 @@ Japp/src/main/java/com/project/pendahospital/Admin/AppointmentFragment.java,1\a
 Oapp/src/main/java/com/project/pendahospital/Aunthentication/SignUpActivity.java,1\1\11406a152891fb583e2e9e9080cfc8446b52f09c
 u
 Eapp/src/main/java/com/project/pendahospital/Models/PharmacyModel.java,d\1\d1ac3af1c1e3d3cdf85157a1dfcb746fce02ca40
-x
-Happ/src/main/java/com/project/pendahospital/Adapters/ConsultAdapter.java,8\c\8c820b811e1140b1e591c94b41b1175252a968a1
 @
 app/build.gradle,f\4\f4a01d6a4fcb971362ec00a83903fd3902f52164
 A
