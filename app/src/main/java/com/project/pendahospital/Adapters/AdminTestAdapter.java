@@ -37,6 +37,7 @@ public class AdminTestAdapter extends RecyclerView.Adapter<AdminTestAdapter.View
         holder.amount.setText(list.get(position).getAmount());
         holder.date.setText(list.get(position).getDate());
         holder.time.setText(list.get(position).getTime());
+        holder.patient.setText(list.get(position).getPatName());
 
     }
 
@@ -46,13 +47,14 @@ public class AdminTestAdapter extends RecyclerView.Adapter<AdminTestAdapter.View
     }
 
     public class ViewHolder extends RecyclerView.ViewHolder {
-        TextView title,amount,date,time;
+        TextView title,amount,date,time,patient;
         public ViewHolder(@NonNull View itemView) {
             super(itemView);
             title = itemView.findViewById(R.id.prod_name);
             amount = itemView.findViewById(R.id.prod_amount);
             date = itemView.findViewById(R.id.order_date);
             time = itemView.findViewById(R.id.order_location);
+            patient = itemView.findViewById(R.id.patient);
         }
     }
 }
