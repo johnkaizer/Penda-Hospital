@@ -1,0 +1,24 @@
+
+>
+java:S16040"(Make this anonymous inner class a lambda(´Â„¤
+C
+java:S16046"(Make this anonymous inner class a lambda(‰¤è³ûÿÿÿÿ
+>
+java:S1604<"(Make this anonymous inner class a lambda(Ì¥İ
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(çƒÊ
+`
+java:S1659#"EDeclare "details1" and all following declarations on a separate line.(È¶—‹şÿÿÿÿ
+_
+java:S1659$"DDeclare "layout1" and all following declarations on a separate line.(®ªŒåıÿÿÿÿ
+m
+java:S1450!"XRemove the "reference" field and declare it as a local variable in the relevant methods.(ëú¼
+n
+java:S1450 "SRemove the "user" field and declare it as a local variable in the relevant methods.(š·àûÿÿÿÿ
+p
+java:S1450""URemove the "userID" field and declare it as a local variable in the relevant methods.(³ ûÁÿÿÿÿÿ
+F
+java:S1172{"+Remove this unused method parameter "view".(şÎŸæúÿÿÿÿ
+G
+java:S1172"+Remove this unused method parameter "view".(»«Ö·şÿÿÿÿ
+B
+java:S1172‡"+Remove this unused method parameter "view".(¤”…“

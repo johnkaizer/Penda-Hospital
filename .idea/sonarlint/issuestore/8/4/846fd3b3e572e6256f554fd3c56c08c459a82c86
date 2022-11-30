@@ -1,0 +1,12 @@
+
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(σ¤‘φόÿÿÿÿ
+n
+java:S1450"XRemove the "tabLayout" field and declare it as a local variable in the relevant methods.(¤Χδ
+s
+java:S1450"XRemove the "viewPager" field and declare it as a local variable in the relevant methods.(εΩ¬Οϋÿÿÿÿ
+Y
+java:S1117"DRename "viewPagerAdapter" which hides the field declared at line 14.( ύν=
+Q
+java:S1874"<Remove this use of "FragmentPagerAdapter"; it is deprecated.( ύν=
+J
+java:S1068"4Remove this unused "viewPagerAdapter" private field.(¬ν—Τ

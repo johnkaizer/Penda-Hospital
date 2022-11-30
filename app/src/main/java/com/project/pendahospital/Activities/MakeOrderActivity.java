@@ -48,6 +48,7 @@ public class MakeOrderActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_make_order);
+        dataRef= FirebaseDatabase.getInstance().getReference().child("TransactionDetails");
         docName = findViewById(R.id.test_name);
         docName.setText(getIntent().getExtras().getString("title"));
         Category = findViewById(R.id.test_amount);
@@ -60,8 +61,6 @@ public class MakeOrderActivity extends AppCompatActivity {
         patPhone = findViewById(R.id.pat_phone);
         patTime = findViewById(R.id.pat_time);
         submit= findViewById(R.id.submit_btn);
-        dataRef= FirebaseDatabase.getInstance().getReference().child("TransactionDetails");
-
         ButterKnife.bind(this);
         mProgressDialog = new ProgressDialog(this);
         mApiClient = new DarajaApiClient();
@@ -157,10 +156,16 @@ public class MakeOrderActivity extends AppCompatActivity {
             }
         });
     }
-
     @Override
     public void onPointerCaptureChanged(boolean hasCapture) {
 
+    }
+    @Override
+    public void onDestroy(){
+        super.onDestroy();
+        if ( mProgressDialog!=null && mProgressDialog.isShowing() ){
+            mProgressDialog.cancel();
+        }
     }
 
 }

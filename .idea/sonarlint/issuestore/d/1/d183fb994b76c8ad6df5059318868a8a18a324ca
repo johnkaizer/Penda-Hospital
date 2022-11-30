@@ -1,0 +1,6 @@
+
+i
+java:S1104"SMake patName a static final constant or non-public and provide accessors if needed.(ïü…š
+s
+java:S1104"QMake patNo a static final constant or non-public and provide accessors if needed.(¬çÌªøÿÿÿÿ8¿¯ÜþË0
+{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ÿ‰¦»ùÿÿÿÿ8¸…öÿË0

@@ -1,0 +1,27 @@
+
+k	java:S117h"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(­ï†™øÿÿÿÿ
+f	java:S117i"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Á´½›
+k	java:S117j"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(É›×ëüÿÿÿÿ
+k	java:S117k"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ıëÅûÿÿÿÿ
+f	java:S117l"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‘ó½º
+k	java:S117m"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(µğøÿÿÿÿ
+>
+java:S16042"(Make this anonymous inner class a lambda(±Ä­”
+>
+java:S1604B"(Make this anonymous inner class a lambda(‘ÇÉà
+>
+java:S1604;"(Make this anonymous inner class a lambda(’ÓÎ¤
+C
+java:S1604T"(Make this anonymous inner class a lambda(³İ²›úÿÿÿÿ
+C
+java:S1604M"(Make this anonymous inner class a lambda(ÈäßÎúÿÿÿÿ
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(çƒÊ
+o	java:S116"SRename this field "Category" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÎÌññ8×ŞÂË0
+b
+java:S1659"EDeclare "Category" and all following declarations on a separate line.(ÎÌññ8öŞÂË0
+[
+java:S1659"EDeclare "patPhone" and all following declarations on a separate line.(ÿÙ¢
+S
+java:S1117Q"8Rename "hour" which hides the field declared at line 31.(‰ÛšÌûÿÿÿÿ
+M
+java:S1117R"7Rename "min" which hides the field declared at line 32.(–ğÛƒ
