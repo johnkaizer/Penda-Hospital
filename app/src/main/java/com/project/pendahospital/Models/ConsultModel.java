@@ -1,6 +1,11 @@
 package com.project.pendahospital.Models;
 
+import com.google.firebase.database.Exclude;
+
 public class ConsultModel {
+
+    @Exclude
+    String key;
     String ImageUrl;
     String DoctorName;
     String DocNumber;
@@ -12,13 +17,22 @@ public class ConsultModel {
     public ConsultModel() {
     }
 
-    public ConsultModel(String imageUrl, String doctorName, String docNumber, String doctorPhone, String doctorCategory, String doctorTime) {
+    public ConsultModel(String key, String imageUrl, String doctorName, String docNumber, String doctorPhone, String doctorCategory, String doctorTime) {
+        this.key = key;
         ImageUrl = imageUrl;
         DoctorName = doctorName;
         DocNumber = docNumber;
         DoctorPhone = doctorPhone;
         DoctorCategory = doctorCategory;
         DoctorTime = doctorTime;
+    }
+
+    public String getKey() {
+        return key;
+    }
+
+    public void setKey(String key) {
+        this.key = key;
     }
 
     public String getImageUrl() {

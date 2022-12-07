@@ -4,11 +4,16 @@ import android.content.Context;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageButton;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.google.android.gms.tasks.OnCompleteListener;
+import com.google.android.gms.tasks.Task;
+import com.google.firebase.database.FirebaseDatabase;
 import com.project.pendahospital.Models.AppointmentModel;
 import com.project.pendahospital.R;
 
@@ -39,6 +44,21 @@ public class AdminAppointmentAdapter extends RecyclerView.Adapter<AdminAppointme
         holder.phone.setText(list.get(position).getPatPhone());
         holder.time.setText(list.get(position).getPatTime());
         holder.date.setText(list.get(position).getPatDate());
+        holder.delete_btn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                String ID = list.get(holder.getAdapterPosition()).getDocName();
+                FirebaseDatabase.getInstance().getReference().child("DoctorsDetails")
+                        .child(ID)
+                        .getRef().removeValue()
+                        .addOnCompleteListener(new OnCompleteListener<Void>() {
+                            @Override
+                            public void onComplete(@NonNull Task<Void> task) {
+                                Toast.makeText(context,"Deleted Successfully",Toast.LENGTH_SHORT).show();
+                            }
+                        });
+            }
+        });
 
     }
 
@@ -49,6 +69,7 @@ public class AdminAppointmentAdapter extends RecyclerView.Adapter<AdminAppointme
 
     public class ViewHolder extends RecyclerView.ViewHolder {
         TextView doctor,category, name,time,date,phone;
+        ImageButton delete_btn;
         public ViewHolder(@NonNull View itemView) {
             super(itemView);
             doctor = itemView.findViewById(R.id.test_name);
@@ -56,7 +77,9 @@ public class AdminAppointmentAdapter extends RecyclerView.Adapter<AdminAppointme
             name = itemView.findViewById(R.id.pat_name);
             time = itemView.findViewById(R.id.pat_time);
             date = itemView.findViewById(R.id.pat_date);
-            phone = itemView.findViewById(R.id.pat_name);
+            phone = itemView.findViewById(R.id.pat_number);
+            delete_btn = itemView.findViewById(R.id.delete);
+
 
         }
     }

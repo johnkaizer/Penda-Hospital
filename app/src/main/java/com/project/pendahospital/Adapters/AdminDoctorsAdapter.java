@@ -7,10 +7,15 @@ import android.view.ViewGroup;
 import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.google.android.gms.tasks.OnCompleteListener;
+import com.google.android.gms.tasks.Task;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
 import com.project.pendahospital.Models.ConsultModel;
 import com.project.pendahospital.R;
 import com.squareup.picasso.Picasso;
@@ -41,6 +46,21 @@ public class AdminDoctorsAdapter extends RecyclerView.Adapter<AdminDoctorsAdapte
         holder.phone.setText(consultModel.getDoctorPhone());
         holder.number.setText(consultModel.getDocNumber());
         Picasso.get().load(consultModel.getImageUrl()).into(holder.image);
+        holder.flow_menu.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+             String ID = list.get(holder.getAdapterPosition()).getDocNumber();
+             FirebaseDatabase.getInstance().getReference().child("DoctorsDetails")
+                     .child(ID)
+                     .getRef().removeValue()
+                     .addOnCompleteListener(new OnCompleteListener<Void>() {
+                         @Override
+                         public void onComplete(@NonNull Task<Void> task) {
+                             Toast.makeText(context,"Deleted Successfully",Toast.LENGTH_SHORT).show();
+                         }
+                     });
+            }
+        });
 
     }
 

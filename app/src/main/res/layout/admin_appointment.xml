@@ -133,7 +133,7 @@
             app:layout_constraintTop_toTopOf="@+id/textView39" />
 
         <TextView
-            android:id="@+id/pat_name"
+            android:id="@+id/pat_number"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="5dp"
@@ -169,6 +169,17 @@
             app:layout_constraintBottom_toBottomOf="@+id/textView42"
             app:layout_constraintStart_toEndOf="@+id/textView42"
             app:layout_constraintTop_toTopOf="@+id/textView42" />
+
+        <ImageButton
+            android:id="@+id/delete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:background="@color/white"
+            android:src="@drawable/delete_24"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
 
 
     </androidx.constraintlayout.widget.ConstraintLayout>

@@ -31,11 +31,12 @@ public class AdminOrderAdapter extends RecyclerView.Adapter<AdminOrderAdapter.Vi
 
     @Override
     public void onBindViewHolder(@NonNull AdminOrderAdapter.ViewHolder holder, int position) {
-        holder.prod.setText(list.get(position).getProduct());
+        holder.prod.setText(list.get(position).getTransactionTitle());
         holder.amount.setText(list.get(position).getTransactionAmount());
         holder.date.setText(list.get(position).getTransactionDate());
         holder.location.setText(list.get(position).getLocation());
         holder.phone.setText(list.get(position).getCustomerPhone());
+        holder.customer.setText(list.get(position).getCustomerName());
 
     }
 
@@ -45,7 +46,7 @@ public class AdminOrderAdapter extends RecyclerView.Adapter<AdminOrderAdapter.Vi
     }
 
     public class ViewHolder extends RecyclerView.ViewHolder {
-        TextView prod,amount,date,location,phone;
+        TextView prod,amount,date,location,phone,customer;
         public ViewHolder(@NonNull View itemView) {
             super(itemView);
             prod = itemView.findViewById(R.id.prod_name);
@@ -53,6 +54,7 @@ public class AdminOrderAdapter extends RecyclerView.Adapter<AdminOrderAdapter.Vi
             date = itemView.findViewById(R.id.order_date);
             location = itemView.findViewById(R.id.order_location);
             phone = itemView.findViewById(R.id.cust_phone);
+            customer = itemView.findViewById(R.id.judy);
         }
     }
 }

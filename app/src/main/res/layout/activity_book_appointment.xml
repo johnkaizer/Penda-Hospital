@@ -157,7 +157,7 @@
         app:layout_constraintTop_toTopOf="@+id/textView31" />
 
     <com.google.android.material.textfield.TextInputEditText
-        android:id="@+id/pat_name"
+        android:id="@+id/pat_number"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:hint="Enter phone number "

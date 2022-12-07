@@ -62,5 +62,7 @@ public class AppointmentFragment extends Fragment {
             }
         });
        return view;
+
     }
+
 }

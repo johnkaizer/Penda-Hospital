@@ -4,9 +4,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
+    android:layout_margin="5dp"
     app:cardBackgroundColor="@color/white"
     app:cardCornerRadius="10dp"
-    android:layout_margin="5dp"
     app:cardElevation="10dp"
     app:contentPadding="5dp">
 
@@ -19,7 +19,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="4dp"
-            android:text="Product Name:"
+            android:text="Total Paid:"
             android:textColor="@color/black"
             android:textSize="15sp"
             android:textStyle="bold"
@@ -44,7 +44,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="4dp"
-            android:text="Amount:"
+            android:text="Order Date:"
             android:textColor="@color/black"
             android:textSize="15sp"
             android:textStyle="bold"
@@ -69,7 +69,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="4dp"
-            android:text="Order Date:"
+            android:text="Product Name:"
             android:textColor="@color/black"
             android:textSize="15sp"
             android:textStyle="bold"
@@ -119,12 +119,10 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
-            android:layout_marginBottom="1dp"
             android:text="Customer No:"
             android:textColor="@color/black"
             android:textSize="15sp"
             android:textStyle="bold"
-            app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toStartOf="@+id/textView57"
             app:layout_constraintTop_toBottomOf="@+id/textView57" />
 
@@ -140,6 +138,31 @@
             app:layout_constraintBottom_toBottomOf="@+id/textView64"
             app:layout_constraintStart_toEndOf="@+id/textView64"
             app:layout_constraintTop_toTopOf="@+id/textView64" />
+
+        <TextView
+            android:id="@+id/textView65"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Customer Name:"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView64" />
+
+        <TextView
+            android:id="@+id/judy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Judy"
+            android:textColor="@color/green"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="@+id/textView65"
+            app:layout_constraintStart_toEndOf="@+id/textView65"
+            app:layout_constraintTop_toTopOf="@+id/textView65" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 
 

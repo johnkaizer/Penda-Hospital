@@ -4,20 +4,20 @@ public class TransactionModel {
     String TransactionDate;
     String TransactionTitle;
     String TransactionAmount;
-    String Product;
     String CustomerPhone;
     String Location;
+    String CustomerName;
 
     public TransactionModel() {
     }
 
-    public TransactionModel(String transactionDate, String transactionTitle, String transactionAmount, String product, String customerPhone, String location) {
+    public TransactionModel(String transactionDate, String transactionTitle, String transactionAmount, String customerPhone, String location, String customerName) {
         TransactionDate = transactionDate;
         TransactionTitle = transactionTitle;
         TransactionAmount = transactionAmount;
-        Product = product;
         CustomerPhone = customerPhone;
         Location = location;
+        CustomerName = customerName;
     }
 
     public String getTransactionDate() {
@@ -44,14 +44,6 @@ public class TransactionModel {
         TransactionAmount = transactionAmount;
     }
 
-    public String getProduct() {
-        return Product;
-    }
-
-    public void setProduct(String product) {
-        Product = product;
-    }
-
     public String getCustomerPhone() {
         return CustomerPhone;
     }
@@ -66,5 +58,13 @@ public class TransactionModel {
 
     public void setLocation(String location) {
         Location = location;
+    }
+
+    public String getCustomerName() {
+        return CustomerName;
+    }
+
+    public void setCustomerName(String customerName) {
+        CustomerName = customerName;
     }
 }

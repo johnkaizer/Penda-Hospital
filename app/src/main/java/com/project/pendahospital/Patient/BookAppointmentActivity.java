@@ -42,7 +42,7 @@ public class BookAppointmentActivity extends AppCompatActivity {
         docTime = findViewById( R.id.doc_time);
         docTime.setText(getIntent().getExtras().getString("time"));
         patName = findViewById(R.id.pat_name);
-        patPhone = findViewById(R.id.pat_name);
+        patPhone = findViewById(R.id.pat_number);
         patDate = findViewById(R.id.date);
         patTime = findViewById(R.id.pat_time);
         submit= findViewById(R.id.submit_btn);

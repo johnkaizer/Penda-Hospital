@@ -19,10 +19,8 @@ import com.project.pendahospital.Models.TransactionModel;
 import java.util.ArrayList;
 
 public class ShoppingCartActivity extends AppCompatActivity {
-//    DBmain dBmain;
-//    SQLiteDatabase sqLiteDatabase;
+
     RecyclerView shopping;
-//    CartAdapter cartAdapter;
     TransactionAdapter transactionAdapter;
     ArrayList<TransactionModel>list;
     Query databaseReference;

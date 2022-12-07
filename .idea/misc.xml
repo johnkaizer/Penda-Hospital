@@ -54,13 +54,14 @@
         <entry key="..\:/PendaHospital/app/src/main/res/layout/fragment_tests.xml" value="0.17889492753623187" />
         <entry key="..\:/PendaHospital/app/src/main/res/layout/health_isssues.xml" value="0.25" />
         <entry key="..\:/PendaHospital/app/src/main/res/layout/insurance_item.xml" value="0.17889492753623187" />
-        <entry key="..\:/PendaHospital/app/src/main/res/layout/order_admin.xml" value="0.41350210970464135" />
+        <entry key="..\:/PendaHospital/app/src/main/res/layout/order_admin.xml" value="0.33" />
         <entry key="..\:/PendaHospital/app/src/main/res/layout/order_item.xml" value="0.25" />
         <entry key="..\:/PendaHospital/app/src/main/res/layout/pharmacy_item.xml" value="0.25" />
         <entry key="..\:/PendaHospital/app/src/main/res/layout/prod_management.xml" value="0.18" />
         <entry key="..\:/PendaHospital/app/src/main/res/layout/test_admin.xml" value="0.67" />
         <entry key="..\:/PendaHospital/app/src/main/res/layout/toolbar.xml" value="0.12807377049180327" />
         <entry key="..\:/PendaHospital/app/src/main/res/layout/wellness_product.xml" value="0.33" />
+        <entry key="..\:/PendaHospital/app/src/main/res/menu/menu.xml" value="0.20416666666666666" />
       </map>
     </option>
   </component>

@@ -97,17 +97,16 @@ public class MakeOrderActivity extends AppCompatActivity {
 
     private void PaymentDetails() {
         String TransactionDate =  docTime.getText().toString();
-        String TransactionTitle =  patName.getText().toString();
+        String TransactionTitle =  docName.getText().toString();
         String TransactionAmount =  Category.getText().toString();
-        String Product =  docName.getText().toString();
         String CustomerPhone =  patPhone.getText().toString();
         String Location =  patTime.getText().toString();
+        String Name =  patName.getText().toString();
 
-        TransactionModel deposit = new TransactionModel(TransactionTitle,TransactionAmount,TransactionDate,Product,CustomerPhone,Location);
+        TransactionModel deposit = new TransactionModel(TransactionTitle,TransactionAmount,TransactionDate,CustomerPhone,Location,Name);
         dataRef.push().setValue(deposit);
         Intent intent = new Intent(MakeOrderActivity.this, SuccessActivity.class);
         startActivity(intent);
-        finish();
     }
 
     private void performSTKPush(String phone_number, String amount) {
@@ -167,5 +166,4 @@ public class MakeOrderActivity extends AppCompatActivity {
             mProgressDialog.cancel();
         }
     }
-
 }
