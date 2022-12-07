@@ -1,7 +1,0 @@
-
-
-java:S1319"dThe type of "list" should be an interface such as "List" rather than the implementation "ArrayList".(¼óÂéýÿÿÿÿ
-t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Í€Îâüÿÿÿÿ
-i	java:S1166"TRename this field "flow_menu" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.( Îô‚
-Y
-java:S16597"CDeclare "number" and all following declarations on a separate line.(ßŠÿ¾

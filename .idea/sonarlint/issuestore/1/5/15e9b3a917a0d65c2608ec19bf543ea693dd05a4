@@ -1,8 +1,0 @@
-
-t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ÿ‰¦»ùÿÿÿÿ
-t	java:S116"SRename this field "ImageUrl" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÅèÏ¿ÿÿÿÿÿ8¨°ÀŞÉ0
-j	java:S116"URename this field "DoctorName" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¬ïíø
-u	java:S116"TRename this field "DocNumber" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ĞİÛ üÿÿÿÿ8ù›¾ŞÉ0
-k	java:S116"VRename this field "DoctorPhone" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ë×±é
-z	java:S116"YRename this field "DoctorCategory" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ü©ÿÿÿÿÿ8ú›¾ŞÉ0
-v	java:S116	"URename this field "DoctorTime" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÜÉ¾ùÿÿÿÿ8§ğ¾ŞÉ0
