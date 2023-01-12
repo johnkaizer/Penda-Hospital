@@ -133,9 +133,9 @@ public class UserActivity extends AppCompatActivity {
         details1.setVisibility(v);
     }
     public void expand2(View view) {
-        int v = (details2.getVisibility() == View.GONE)? View.VISIBLE: View.GONE;
+        int v = (details1.getVisibility() == View.GONE)? View.VISIBLE: View.GONE;
 
         TransitionManager.beginDelayedTransition(layout, new AutoTransition());
-        details2.setVisibility(v);
+        details1.setVisibility(v);
     }
 }

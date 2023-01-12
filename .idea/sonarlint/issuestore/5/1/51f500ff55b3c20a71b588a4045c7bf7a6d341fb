@@ -1,0 +1,30 @@
+
+k	java:S117H"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÛÒÞþÿÿÿÿ
+k	java:S117c"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÞÌ‹Þùÿÿÿÿ
+f	java:S117d"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ª¯Œ¸
+k	java:S117e"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(óÕ­Ûøÿÿÿÿ
+f	java:S117f"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(•ö®Ë
+f	java:S117g"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÙÑÎ
+m	java:S117h"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(äÌñÜ8“Ë¿¿Í0
+f	java:S117p"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(üÀÒ
+>
+java:S1604E"(Make this anonymous inner class a lambda(±Ä­”
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ûÕå¥
+h	java:S116'"SRename this field "Category" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÎÌññ
+˜
+java:S1186Ÿ"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(¨‰ïÃ
+[
+java:S1659'"EDeclare "Category" and all following declarations on a separate line.(ÎÌññ
+`
+java:S1659("EDeclare "patPhone" and all following declarations on a separate line.(´õ¨¿ýÿÿÿÿ
+Q
+java:S1874-"6Remove this use of "ProgressDialog"; it is deprecated.(¹£½­úÿÿÿÿ
+L
+java:S1874A"6Remove this use of "ProgressDialog"; it is deprecated.(‘õ—™
+—
+java:S1186\"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Äà‡†
+c	java:S100b"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ðÛÃ—
+M
+java:S1874q"2Remove this use of "setMessage"; it is deprecated.(çöíÖþÿÿÿÿ
+N
+java:S1874s"8Remove this use of "setIndeterminate"; it is deprecated.(ŸƒÄÔ

@@ -1,0 +1,14 @@
+
+y
+java:S1319"dThe type of "list" should be an interface such as "List" rather than the implementation "ArrayList".(”±‹C
+r	java:S1172"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(İÆßúÿÿÿÿ8Ş©„¾Í0
+J
+java:S16046"(Make this anonymous inner class a lambda(„¬é¿øÿÿÿÿ8ß©„¾Í0
+E
+java:S1604/"(Make this anonymous inner class a lambda(ô§‘À8›•ƒ¾Í0
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Í€Îâüÿÿÿÿ
+\
+java:S18742":Remove this use of "getAdapterPosition"; it is deprecated.(İÆßúÿÿÿÿ8‡ª„¾Í0
+o	java:S116H"URename this field "delete_btn" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(áŒÉºüÿÿÿÿ
+`
+java:S1659G"EDeclare "category" and all following declarations on a separate line.(ÌèÈ ùÿÿÿÿ

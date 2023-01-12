@@ -1,8 +1,0 @@
-
-
-java:S1319"dThe type of "list" should be an interface such as "List" rather than the implementation "ArrayList".(ÊÊÍìúÿÿÿÿ
->
-java:S16040"(Make this anonymous inner class a lambda(é×Š¼
-t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Í€Îâüÿÿÿÿ
-X
-java:S1659A"BDeclare "phone" and all following declarations on a separate line.(é‰àñ
